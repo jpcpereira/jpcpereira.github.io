@@ -45,7 +45,7 @@ ul.task-list input[type="checkbox"] {
   }
 
   .card-title {
-    color: var(--global-text-color);
+    color: var(--global-social-icon-color);
   }
 
   .card-body {
@@ -196,7 +196,7 @@ ul.task-list input[type="checkbox"] {
       }
 
       i::before {
-        color: var(--global-text-color);
+        color: var(--global-social-icon-color);
         transition-property: all 0.2s ease-in-out;
       }
 
@@ -204,7 +204,7 @@ ul.task-list input[type="checkbox"] {
         text-decoration: none;
 
         i::before {
-          color: var(--global-theme-color);
+          color: var(--global-social-icon-color-hover);
         }
       }
     }

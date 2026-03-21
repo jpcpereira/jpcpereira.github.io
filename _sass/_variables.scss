@@ -6,6 +6,9 @@
 @use "sass:color";
 
 // Colors
+//
+$global-bg-color-light: #cedde4 !default;
+$global-bg-color-dark: #4c5764 !default;
 $red-color: #ff3636 !default;
 $red-color-dark: #b71c1c !default;
 $orange-color: #f29105 !default;
@@ -23,6 +26,9 @@ $light-purple-color: color.adjust($purple-color, $lightness: 25%);
 $pink-color: #f92080 !default;
 $pink-color-light: #ffdddd !default;
 $yellow-color: #efcc00 !default;
+$dark-gold-color: #b17d3ace !default;
+$light-gold-color: #e3b67b !default;
+
 
 $grey-color: #828282 !default;
 $grey-color-light: color.adjust($grey-color, $lightness: 40%);
@@ -32,8 +38,13 @@ $grey-900: #212529;
 $white-color: #ffffff !default;
 $black-color: #000000 !default;
 
-// Theme colors
+// Icon colors
+$social-icon-color-dark: #edb871;
+$social-icon-color-light: #b17d3ace;
+$social-icon-color-hover-dark: #ffffff;
+$social-icon-color-hover-light: #ffffff;
 
+// Theme colors
 $code-bg-color-light: rgba($purple-color, 0.05);
 $code-bg-color-dark: #2c3237 !default;
 
