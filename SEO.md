@@ -74,13 +74,12 @@ If they're missing:
 Ensure `_config.yml` has correct metadata:
 
 ```yaml
-title: Your Full Name or Site Title
+title: João Pereira
 description: > # Brief description (1-2 sentences)
-  A description of your research and expertise.
-  This appears in search results.
-author: Your Name
-keywords: machine learning, research, academia, etc.
-url: https://your-domain.com
+  João's Pereira website.
+author: João Pereira
+keywords: machine learning
+url: https://www.joaopereira.ai
 lang: en
 ```
 

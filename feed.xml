@@ -1,748 +1,252 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://alshedivat.github.io/al-folio/feed.xml" rel="self" type="application/atom+xml"/><link href="https://alshedivat.github.io/al-folio/" rel="alternate" type="text/html" hreflang="en"/><updated>2026-03-13T19:35:37+00:00</updated><id>https://alshedivat.github.io/al-folio/feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design. </subtitle><entry><title type="html">a post with plotly.js</title><link href="https://alshedivat.github.io/al-folio/blog/2025/plotly/" rel="alternate" type="text/html" title="a post with plotly.js"/><published>2025-03-26T14:24:00+00:00</published><updated>2025-03-26T14:24:00+00:00</updated><id>https://alshedivat.github.io/al-folio/blog/2025/plotly</id><content type="html" xml:base="https://alshedivat.github.io/al-folio/blog/2025/plotly/"><![CDATA[<p>This is an example post with some <a href="https://plotly.com/javascript/">plotly</a> code.</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">plotly
-</span><span class="sb">{
-  "data": [
-    {
-      "x": [1, 2, 3, 4],
-      "y": [10, 15, 13, 17],
-      "type": "scatter"
-    },
-    {
-      "x": [1, 2, 3, 4],
-      "y": [16, 5, 11, 9],
-      "type": "scatter"
-    }
-  ]
-}</span>
-<span class="p">```</span>
-</code></pre></div></div> <p>Which generates:</p> <pre><code class="language-plotly">{
-  "data": [
-    {
-      "x": [1, 2, 3, 4],
-      "y": [10, 15, 13, 17],
-      "type": "scatter"
-    },
-    {
-      "x": [1, 2, 3, 4],
-      "y": [16, 5, 11, 9],
-      "type": "scatter"
-    }
-  ]
-}
-</code></pre> <p>Also another example chart.</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">plotly
-</span><span class="sb">{
-  "data": [
-    {
-      "x": [1, 2, 3, 4],
-      "y": [10, 15, 13, 17],
-      "mode": "markers"
-    },
-    {
-      "x": [2, 3, 4, 5],
-      "y": [16, 5, 11, 9],
-      "mode": "lines"
-    },
-    {
-      "x": [1, 2, 3, 4],
-      "y": [12, 9, 15, 12],
-      "mode": "lines+markers"
-    }
-  ],
-  "layout": {
-    "title": {
-      "text": "Line and Scatter Plot"
-    }
-  }
-}</span>
-<span class="p">```</span>
-</code></pre></div></div> <p>This is how it looks like:</p> <pre><code class="language-plotly">{
-  "data": [
-    {
-      "x": [1, 2, 3, 4],
-      "y": [10, 15, 13, 17],
-      "mode": "markers"
-    },
-    {
-      "x": [2, 3, 4, 5],
-      "y": [16, 5, 11, 9],
-      "mode": "lines"
-    },
-    {
-      "x": [1, 2, 3, 4],
-      "y": [12, 9, 15, 12],
-      "mode": "lines+markers"
-    }
-  ],
-  "layout": {
-    "title": {
-      "text": "Line and Scatter Plot"
-    }
-  }
-}
-</code></pre>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="charts"/><summary type="html"><![CDATA[this is what included plotly.js code could look like]]></summary></entry><entry><title type="html">a post with image galleries</title><link href="https://alshedivat.github.io/al-folio/blog/2024/photo-gallery/" rel="alternate" type="text/html" title="a post with image galleries"/><published>2024-12-04T01:59:00+00:00</published><updated>2024-12-04T01:59:00+00:00</updated><id>https://alshedivat.github.io/al-folio/blog/2024/photo-gallery</id><content type="html" xml:base="https://alshedivat.github.io/al-folio/blog/2024/photo-gallery/"><![CDATA[<p>The images in this post are all zoomable, arranged into different mini-galleries using different libraries.</p> <h2 id="lightbox2"><a href="https://lokeshdhakar.com/projects/lightbox2/">Lightbox2</a></h2> <p><a href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/1/img-2500.jpg" data-lightbox="roadtrip"><img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/1/img-200.jpg"/></a> <a href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-2500.jpg" data-lightbox="roadtrip"><img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-200.jpg"/></a> <a href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-2500.jpg" data-lightbox="roadtrip"><img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg"/></a></p> <hr/> <h2 id="photoswipe"><a href="https://photoswipe.com/">PhotoSwipe</a></h2> <div class="pswp-gallery pswp-gallery--single-column" id="gallery--getting-started"> <a href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-2500.jpg" data-pswp-width="1669" data-pswp-height="2500" target="_blank"> <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-200.jpg" alt=""/> </a> <a href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/7/img-2500.jpg" data-pswp-width="1875" data-pswp-height="2500" data-cropped="true" target="_blank"> <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/7/img-200.jpg" alt=""/> </a> <a href="https://unsplash.com" data-pswp-src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-2500.jpg" data-pswp-width="2500" data-pswp-height="1666" target="_blank"> <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg" alt=""/> </a> <div> <a href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/6/img-2500.jpg" data-pswp-width="2500" data-pswp-height="1667" target="_blank"> <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/6/img-200.jpg" alt=""/> </a> </div> </div> <hr/> <h2 id="spotlight-js"><a href="https://nextapps-de.github.io/spotlight/">Spotlight JS</a></h2> <div class="spotlight-group"> <a class="spotlight" href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/1/img-2500.jpg"> <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/1/img-200.jpg"/> </a> <a class="spotlight" href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-2500.jpg"> <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-200.jpg"/> </a> <a class="spotlight" href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-2500.jpg"> <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg"/> </a> </div> <div class="spotlight-group"> <a class="spotlight" href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/4/img-2500.jpg"> <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/4/img-200.jpg"/> </a> <a class="spotlight" href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/5/img-2500.jpg"> <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/5/img-200.jpg"/> </a> <a class="spotlight" href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/6/img-2500.jpg"> <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/6/img-200.jpg"/> </a> </div> <hr/> <h2 id="venobox"><a href="https://veno.es/venobox/">Venobox</a></h2> <p><a class="venobox" data-gall="myGallery" href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/1/img-2500.jpg"><img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/1/img-200.jpg"/></a> <a class="venobox" data-gall="myGallery" href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-2500.jpg"><img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-200.jpg"/></a> <a class="venobox" data-gall="myGallery" href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-2500.jpg"><img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg"/></a></p>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="images"/><summary type="html"><![CDATA[this is what included image galleries could look like]]></summary></entry><entry><title type="html">Google Gemini updates: Flash 1.5, Gemma 2 and Project Astra</title><link href="https://alshedivat.github.io/al-folio/blog/2024/google-gemini-updates-flash-15-gemma-2-and-project-astra/" rel="alternate" type="text/html" title="Google Gemini updates: Flash 1.5, Gemma 2 and Project Astra"/><published>2024-05-14T00:00:00+00:00</published><updated>2024-05-14T00:00:00+00:00</updated><id>https://alshedivat.github.io/al-folio/blog/2024/google-gemini-updates-flash-15-gemma-2-and-project-astra</id><content type="html" xml:base="https://alshedivat.github.io/al-folio/blog/2024/google-gemini-updates-flash-15-gemma-2-and-project-astra/"><![CDATA[<p>Learn more:Learn more:Learn more:Learn more:Learn more:Learn more:May 14, 2024 We’re introducing a series of updates across the Gemini family of models, including the new 1.5 Flash, our lightweight model for speed and efficiency, and Project Astra, our vision for the future of AI assistants. In December, we launched our first natively multimodal model Gemini 1.0 in three sizes: Ultra, Pro and Nano. Just a few months later we released 1.5 Pro, with enhanced performance and a breakthrough long context window of 1 million tokens.Developers and enterprise customers have been putting 1.5 Pro to use in incredible ways and finding its long context window, multimodal reasoning capabilities and impressive overall performance incredibly useful.We know from user feedback that some applications need lower latency and a lower cost to serve. This inspired us to keep innovating, so today, we’re introducing Gemini 1.5 Flash: a model that’s lighter-weight than 1.5 Pro, and designed to be fast and efficient to serve at scale.Both 1.5 Pro and 1.5 Flash are available in public preview with a 1 million token context window in Google AI Studio and Vertex AI. And now, 1.5 Pro is also available with a 2 million token context window via waitlist to developers using the API and to Google Cloud customers.We’re also introducing updates across the Gemini family of models, announcing our next generation of open models, Gemma 2, and sharing progress on the future of AI assistants, with Project Astra.Context lengths of leading foundation models compared with Gemini 1.5’s 2 million token capability1.5 Flash is the newest addition to the Gemini model family and the fastest Gemini model served in the API. It’s optimized for high-volume, high-frequency tasks at scale, is more cost-efficient to serve and features our breakthrough long context window.While it’s a lighter weight model than 1.5 Pro, it’s highly capable of multimodal reasoning across vast amounts of information and delivers impressive quality for its size.The new Gemini 1.5 Flash model is optimized for speed and efficiency, is highly capable of multimodal reasoning and features our breakthrough long context window.1.5 Flash excels at summarization, chat applications, image and video captioning, data extraction from long documents and tables, and more. This is because it’s been trained by 1.5 Pro through a process called “distillation,” where the most essential knowledge and skills from a larger model are transferred to a smaller, more efficient model.Read more about 1.5 Flash in our updated Gemini 1.5 technical report, on the Gemini technology page, and learn about 1.5 Flash’s availability and pricing.Over the last few months, we’ve significantly improved 1.5 Pro, our best model for general performance across a wide range of tasks.Beyond extending its context window to 2 million tokens, we’ve enhanced its code generation, logical reasoning and planning, multi-turn conversation, and audio and image understanding through data and algorithmic advances. We see strong improvements on public and internal benchmarks for each of these tasks.1.5 Pro can now follow increasingly complex and nuanced instructions, including ones that specify product-level behavior involving role, format and style. We’ve improved control over the model’s responses for specific use cases, like crafting the persona and response style of a chat agent or automating workflows through multiple function calls. And we’ve enabled users to steer model behavior by setting system instructions.We added audio understanding in the Gemini API and Google AI Studio, so 1.5 Pro can now reason across image and audio for videos uploaded in Google AI Studio. And we’re now integrating 1.5 Pro into Google products, including Gemini Advanced and in Workspace apps.Read more about 1.5 Pro in our updated Gemini 1.5 technical report and on the Gemini technology page.Gemini Nano is expanding beyond text-only inputs to include images as well. Starting with Pixel, applications using Gemini Nano with Multimodality will be able to understand the world the way people do — not just through text, but also through sight, sound and spoken language.Read more about Gemini 1.0 Nano on Android.Today, we’re also sharing a series of updates to Gemma, our family of open models built from the same research and technology used to create the Gemini models.We’re announcing Gemma 2, our next generation of open models for responsible AI innovation. Gemma 2 has a new architecture designed for breakthrough performance and efficiency, and will be available in new sizes.The Gemma family is also expanding with PaliGemma, our first vision-language model inspired by PaLI-3. And we’ve upgraded our Responsible Generative AI Toolkit with LLM Comparator for evaluating the quality of model responses.Read more on the Developer blog.As part of Google DeepMind’s mission to build AI responsibly to benefit humanity, we’ve always wanted to develop universal AI agents that can be helpful in everyday life. That’s why today, we’re sharing our progress in building the future of AI assistants with Project Astra (advanced seeing and talking responsive agent).To be truly useful, an agent needs to understand and respond to the complex and dynamic world just like people do — and take in and remember what it sees and hears to understand context and take action. It also needs to be proactive, teachable and personal, so users can talk to it naturally and without lag or delay.While we’ve made incredible progress developing AI systems that can understand multimodal information, getting response time down to something conversational is a difficult engineering challenge. Over the past few years, we’ve been working to improve how our models perceive, reason and converse to make the pace and quality of interaction feel more natural.Building on Gemini, we’ve developed prototype agents that can process information faster by continuously encoding video frames, combining the video and speech input into a timeline of events, and caching this information for efficient recall.By leveraging our leading speech models, we also enhanced how they sound, giving the agents a wider range of intonations. These agents can better understand the context they’re being used in, and respond quickly, in conversation.With technology like this, it’s easy to envision a future where people could have an expert AI assistant by their side, through a phone or glasses. And some of these capabilities are coming to Google products, like the Gemini app and web experience, later this year.We’ve made incredible progress so far with our family of Gemini models, and we’re always striving to advance the state-of-the-art even further. By investing in a relentless production line of innovation, we’re able to explore new ideas at the frontier, while also unlocking the possibility of new and exciting Gemini use cases.Learn more about Gemini and its capabilities. Your information will be used in accordance with Google’s privacy policy.</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>      Done. Just one step more.
-    
-      Check your inbox to confirm your subscription.
-    You are already subscribed to our newsletter.
-    You can also subscribe with a
-    different email address
-    
-    .
-    
-  Let’s stay in touch. Get the latest news from Google in your inbox.
-          Follow Us
-</code></pre></div></div>]]></content><author><name></name></author><category term="external-posts"/><category term="google"/><summary type="html"><![CDATA[We’re sharing updates across our Gemini family of models and a glimpse of Project Astra, our vision for the future of AI assistants.]]></summary></entry><entry><title type="html">a post with tabs</title><link href="https://alshedivat.github.io/al-folio/blog/2024/tabs/" rel="alternate" type="text/html" title="a post with tabs"/><published>2024-05-01T00:32:13+00:00</published><updated>2024-05-01T00:32:13+00:00</updated><id>https://alshedivat.github.io/al-folio/blog/2024/tabs</id><content type="html" xml:base="https://alshedivat.github.io/al-folio/blog/2024/tabs/"><![CDATA[<p>This is how a post with <a href="https://github.com/Ovski4/jekyll-tabs">tabs</a> looks like. Note that the tabs could be used for different purposes, not only for code.</p> <h2 id="first-tabs">First tabs</h2> <p>To add tabs, use the following syntax:</p> <div class="language-liquid highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">{%</span><span class="w"> </span><span class="nt">tabs</span><span class="w"> </span><span class="nv">group-name</span><span class="w"> </span><span class="cp">%}</span>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://jpcpereira.github.io/feed.xml" rel="self" type="application/atom+xml"/><link href="https://jpcpereira.github.io/" rel="alternate" type="text/html" hreflang="en"/><updated>2026-03-21T18:45:02+00:00</updated><id>https://jpcpereira.github.io/feed.xml</id><title type="html">João Pereira</title><subtitle>João Pereira is a data science lead. He holds an Engineering Doctorate (EngD) degree in Data Science from Eindhoven University of Technology. </subtitle><entry><title type="html">Fine-tune MPT-7B on Amazon SageMaker</title><link href="https://jpcpereira.github.io/blog/2023/finetune-mpt-7b/" rel="alternate" type="text/html" title="Fine-tune MPT-7B on Amazon SageMaker"/><published>2023-06-20T00:00:00+00:00</published><updated>2023-06-20T00:00:00+00:00</updated><id>https://jpcpereira.github.io/blog/2023/finetune-mpt-7b</id><content type="html" xml:base="https://jpcpereira.github.io/blog/2023/finetune-mpt-7b/"><![CDATA[<p>New large language models (LLMs) are being announced every week, each trying to beat its predecessor and take over the evaluation leaderboards. One of the latest models out there is <a href="https://www.databricks.com/blog/mpt-7b">MPT-7B</a> that was released by MosaicML. Unlike other models of its kind, this 7-billion-parameter model is open-source and licensed for commercial use (<a href="https://github.com/mosaicml/llm-foundry/blob/main/LICENSE">Apache 2.0 license</a>) 🚀.</p> <p>Foundation models like <a href="https://www.databricks.com/blog/mpt-7b">MPT-7B</a> are pre-trained on datasets with trillions of tokens (100 tokens ~ 75 words) crawled from the web and, when prompted well, they can produce impressive outputs. However, to truly unlock the value of large language models in real-world applications, smart prompt-engineering might not be enough to make them work for your use case and, therefore, fine-tuning a foundation model on a domain-specific dataset is required.</p> <p>LLMs have billions of parameters and, consequently, fine-tuning such large models is challenging. Good news is that fine-tuning is much cheaper and faster as compared to pre-training the foundation model given that 1) the domain-specific datasets are “small” and 2) fine-tuning requires only a few passes over the training data.</p> <p><strong>Here is what we will learn in this article:</strong></p> <ul> <li>How to create and structure a dataset for fine-tuning a large language model.</li> <li>What is and how to configure a distributed training job with fully sharded data parallel.</li> <li>How to define a 😊 HuggingFace estimator.</li> <li>How to launch a training job in Amazon SageMaker that fine-tunes <a href="https://www.databricks.com/blog/mpt-7b">MPT-7B</a>.</li> </ul> <h2 id="install-dependencies-and-set-s3-paths">Install dependencies and set S3 paths</h2> <p>Let’s start by installing the <a href="https://sagemaker.readthedocs.io/en/stable">SageMaker Python SDK</a> and a few other packages. This SDK makes it possible to train and deploy machine learning models on AWS with a few lines of Python code. The code below is available in the <a href="https://github.com/jpcpereira/sagemaker-fine-tune-mpt-7b/blob/main/sagemaker_finetuning.ipynb"><code class="language-plaintext highlighter-rouge">sagemaker_finetuning.ipynb</code></a> notebook on Github. Run the notebook in SageMaker Studio, a SageMaker notebook instance, or in your laptop after <a href="https://docs.aws.amazon.com/signin/latest/userguide/command-line-sign-in.html">authenticating to an AWS account</a>.</p> <figure class="highlight"><pre><code class="language-python" data-lang="python">  <span class="err">!</span><span class="n">pip</span> <span class="n">install</span> <span class="sh">"</span><span class="s">sagemaker==2.162.0</span><span class="sh">"</span> <span class="n">s3path</span> <span class="n">boto3</span> <span class="o">--</span><span class="n">quiet</span>
 
-<span class="cp">{%</span><span class="w"> </span><span class="nt">tab</span><span class="w"> </span><span class="nv">group-name</span><span class="w"> </span><span class="nv">tab-name-1</span><span class="w"> </span><span class="cp">%}</span>
+  <span class="kn">from</span> <span class="n">sagemaker.huggingface</span> <span class="kn">import</span> <span class="n">HuggingFace</span>
+  <span class="kn">from</span> <span class="n">sagemaker.inputs</span> <span class="kn">import</span> <span class="n">TrainingInput</span>
+  <span class="kn">from</span> <span class="n">sagemaker</span> <span class="kn">import</span> <span class="n">s3_utils</span>
+  <span class="kn">import</span> <span class="n">sagemaker</span>
+  <span class="kn">import</span> <span class="n">boto3</span>
+  <span class="kn">import</span> <span class="n">json</span></code></pre></figure> <p>Next step is to define the paths where the data will be saved in S3 and create a SageMaker session.</p> <figure class="highlight"><pre><code class="language-python" data-lang="python">  <span class="c1"># Define S3 paths
+</span>  <span class="n">bucket</span>             <span class="o">=</span> <span class="sh">"</span><span class="s">&lt;YOUR-S3-BUCKET&gt;</span><span class="sh">"</span>
+  <span class="n">training_data_path</span> <span class="o">=</span> <span class="sa">f</span><span class="sh">"</span><span class="s">s3://</span><span class="si">{</span><span class="n">bucket</span><span class="si">}</span><span class="s">/toy_data/train/data.jsonl</span><span class="sh">"</span>
+  <span class="n">test_data_path</span>     <span class="o">=</span> <span class="sa">f</span><span class="sh">"</span><span class="s">s3://</span><span class="si">{</span><span class="n">bucket</span><span class="si">}</span><span class="s">/toy_data/test/data.jsonl</span><span class="sh">"</span>
+  <span class="n">output_path</span>        <span class="o">=</span> <span class="sa">f</span><span class="sh">"</span><span class="s">s3://</span><span class="si">{</span><span class="n">bucket</span><span class="si">}</span><span class="s">/outputs</span><span class="sh">"</span>
+  <span class="n">code_location</span>      <span class="o">=</span> <span class="sa">f</span><span class="sh">"</span><span class="s">s3://</span><span class="si">{</span><span class="n">bucket</span><span class="si">}</span><span class="s">/code</span><span class="sh">"</span>
 
-Content 1
+  <span class="c1"># Create SageMaker session
+</span>  <span class="n">sagemaker_session</span>  <span class="o">=</span> <span class="n">sagemaker</span><span class="p">.</span><span class="nc">Session</span><span class="p">()</span>
+  <span class="n">region</span>             <span class="o">=</span> <span class="n">sagemaker_session</span><span class="p">.</span><span class="n">boto_region_name</span>
+  <span class="n">role</span>               <span class="o">=</span> <span class="n">sagemaker</span><span class="p">.</span><span class="nf">get_execution_role</span><span class="p">()</span></code></pre></figure> <h2 id="build-a-fine-tuning-dataset">Build a fine-tuning dataset</h2> <p>We will create a dummy dataset to demonstrate how to fine-tune MPT-7B. Since training models of this size on a complete dataset takes long and is costly, it is a good idea to first test &amp; debug the training job on a small dataset and second scale training to the complete dataset.</p> <ul> <li><strong>Format dataset as a list of dictionaries</strong> –– The dataset should be formatted as a list of dictionaries, where each example has a key-value structure, <em>e.g.</em>,</li> </ul> <figure class="highlight"><pre><code class="language-python" data-lang="python">  <span class="p">{</span>
+      <span class="sh">"</span><span class="s">prompt</span><span class="sh">"</span><span class="p">:</span> <span class="sh">"</span><span class="s">What is a Pastel de Nata?</span><span class="sh">"</span><span class="p">,</span>
+      <span class="sh">"</span><span class="s">response</span><span class="sh">"</span><span class="p">:</span> <span class="sh">"</span><span class="s">A Pastel de Nata is a Portuguese egg custard tart pastry, optionally dusted with cinnamon.</span><span class="sh">"</span>
+  <span class="p">}</span></code></pre></figure> <p>The <code class="language-plaintext highlighter-rouge">prompt</code> is the input given to the model (<em>e.g.</em>, a question). The response is the output that the model is trained to predict (<em>e.g.</em>, the answer to the question in the <code class="language-plaintext highlighter-rouge">prompt</code>). The raw prompt is often preprocessed to fit in a prompt template that helps the model to generate better outputs. Note that the model is trained for causal language modelling, so you can think of it as a “document completer”. It is a good idea to design the prompt template in such a way that the model thinks that it is completing a document. Andrej Karpathy explains well this mechanism in his talk <a href="youtu.be/bZQun8Y4L2A">State of GPT</a>.</p> <figure class="highlight"><pre><code class="language-python" data-lang="python">  <span class="n">prompt_template</span> <span class="o">=</span> <span class="sh">"""</span><span class="s">Write a response that appropriately answers the question below.
+  ### Question:
+  {question}
 
-<span class="cp">{%</span><span class="w"> </span><span class="nt">endtab</span><span class="w"> </span><span class="cp">%}</span>
+  ### Response:
+  </span><span class="sh">"""</span>
 
-<span class="cp">{%</span><span class="w"> </span><span class="nt">tab</span><span class="w"> </span><span class="nv">group-name</span><span class="w"> </span><span class="nv">tab-name-2</span><span class="w"> </span><span class="cp">%}</span>
+  <span class="n">dataset</span> <span class="o">=</span> <span class="p">[</span>
+      <span class="p">{</span><span class="sh">"</span><span class="s">prompt</span><span class="sh">"</span><span class="p">:</span> <span class="sh">"</span><span class="s">What is a Pastel de Nata?</span><span class="sh">"</span><span class="p">,</span>
+      <span class="sh">"</span><span class="s">response</span><span class="sh">"</span><span class="p">:</span> <span class="sh">"</span><span class="s">A Pastel de Nata is a Portuguese egg custard tart pastry, optionally dusted with cinnamon.</span><span class="sh">"</span><span class="p">},</span>
+      <span class="p">{</span><span class="sh">"</span><span class="s">prompt</span><span class="sh">"</span><span class="p">:</span> <span class="sh">"</span><span class="s">Which museums are famous in Amsterdam?</span><span class="sh">"</span><span class="p">,</span>
+      <span class="sh">"</span><span class="s">response</span><span class="sh">"</span><span class="p">:</span> <span class="sh">"</span><span class="s">Amsterdam is home to various world-famous museums, and no trip to the city is complete without stopping by the Rijksmuseum, Van Gogh Museum, or Stedelijk Museum.</span><span class="sh">"</span><span class="p">},</span>
+      <span class="p">{</span><span class="sh">"</span><span class="s">prompt</span><span class="sh">"</span><span class="p">:</span> <span class="sh">"</span><span class="s">Where is the European Parliament?</span><span class="sh">"</span><span class="p">,</span>
+      <span class="sh">"</span><span class="s">response</span><span class="sh">"</span><span class="p">:</span> <span class="sh">"</span><span class="s">Strasbourg is the official seat of the European Parliament.</span><span class="sh">"</span><span class="p">},</span>
+      <span class="p">{</span><span class="sh">"</span><span class="s">prompt</span><span class="sh">"</span><span class="p">:</span> <span class="sh">"</span><span class="s">How is the weather in The Netherlands?</span><span class="sh">"</span><span class="p">,</span>
+      <span class="sh">"</span><span class="s">response</span><span class="sh">"</span><span class="p">:</span> <span class="sh">"</span><span class="s">The Netherlands is a country that boasts a typical maritime climate with mild summers and cold winters.</span><span class="sh">"</span><span class="p">},</span>
+      <span class="p">{</span><span class="sh">"</span><span class="s">prompt</span><span class="sh">"</span><span class="p">:</span> <span class="sh">"</span><span class="s">What are Poffertjes?</span><span class="sh">"</span><span class="p">,</span>
+      <span class="sh">"</span><span class="s">response</span><span class="sh">"</span><span class="p">:</span> <span class="sh">"</span><span class="s">Poffertjes are a traditional Dutch batter treat. Resembling small, fluffy pancakes, they are made with yeast and buckwheat flour.</span><span class="sh">"</span><span class="p">},</span>
+  <span class="p">]</span>
 
-Content 2
+  <span class="c1"># Format prompt based on template
+</span>  <span class="k">for</span> <span class="n">example</span> <span class="ow">in</span> <span class="n">dataset</span><span class="p">:</span>
+      <span class="n">example</span><span class="p">[</span><span class="sh">"</span><span class="s">prompt</span><span class="sh">"</span><span class="p">]</span> <span class="o">=</span> <span class="n">prompt_template</span><span class="p">.</span><span class="nf">format</span><span class="p">(</span><span class="n">question</span><span class="o">=</span><span class="n">example</span><span class="p">[</span><span class="sh">"</span><span class="s">prompt</span><span class="sh">"</span><span class="p">])</span>
 
-<span class="cp">{%</span><span class="w"> </span><span class="nt">endtab</span><span class="w"> </span><span class="cp">%}</span>
+  <span class="n">training_data</span><span class="p">,</span> <span class="n">test_data</span> <span class="o">=</span> <span class="n">dataset</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">4</span><span class="p">],</span> <span class="n">dataset</span><span class="p">[</span><span class="mi">4</span><span class="p">:]</span>
 
-<span class="cp">{%</span><span class="w"> </span><span class="nt">endtabs</span><span class="w"> </span><span class="cp">%}</span>
-</code></pre></div></div> <p>With this you can generate visualizations like:</p> <ul id="log" class="tab" data-tab="bbcb0805-d54a-474a-905b-b330f232ed25" data-name="log"> <li class="active" id="log-php"> <a href="#">php </a> </li> <li id="log-js"> <a href="#">js </a> </li> <li id="log-ruby"> <a href="#">ruby </a> </li> </ul> <ul class="tab-content" id="bbcb0805-d54a-474a-905b-b330f232ed25" data-name="log"> <li class="active"> <div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">var_dump</span><span class="p">(</span><span class="s1">'hello'</span><span class="p">);</span>
-</code></pre></div></div> </li> <li> <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">console</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="dl">"</span><span class="s2">hello</span><span class="dl">"</span><span class="p">);</span>
-</code></pre></div></div> </li> <li> <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">pputs</span> <span class="dl">'</span><span class="s1">hello</span><span class="dl">'</span>
-</code></pre></div></div> </li> </ul> <h2 id="another-example">Another example</h2> <ul id="data-struct" class="tab" data-tab="acca9aad-3fd5-4b34-965a-51f90a3efb2b" data-name="data-struct"> <li class="active" id="data-struct-yaml"> <a href="#">yaml </a> </li> <li id="data-struct-json"> <a href="#">json </a> </li> </ul> <ul class="tab-content" id="acca9aad-3fd5-4b34-965a-51f90a3efb2b" data-name="data-struct"> <li class="active"> <div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">hello</span><span class="pi">:</span>
-  <span class="pi">-</span> <span class="s2">"</span><span class="s">whatsup"</span>
-  <span class="pi">-</span> <span class="s2">"</span><span class="s">hi"</span>
-</code></pre></div></div> </li> <li> <div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
-  </span><span class="nl">"hello"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"whatsup"</span><span class="p">,</span><span class="w"> </span><span class="s2">"hi"</span><span class="p">]</span><span class="w">
-</span><span class="p">}</span><span class="w">
-</span></code></pre></div></div> </li> </ul> <h2 id="tabs-for-something-else">Tabs for something else</h2> <ul id="something-else" class="tab" data-tab="537fc83b-b4d0-4813-9d0a-cf3550e5d2f2" data-name="something-else"> <li class="active" id="something-else-text"> <a href="#">text </a> </li> <li id="something-else-quote"> <a href="#">quote </a> </li> <li id="something-else-list"> <a href="#">list </a> </li> </ul> <ul class="tab-content" id="537fc83b-b4d0-4813-9d0a-cf3550e5d2f2" data-name="something-else"> <li class="active"> <p>Regular text</p> </li> <li> <blockquote> <p>A quote</p> </blockquote> </li> <li> <p>Hipster list</p> <ul> <li>brunch</li> <li>fixie</li> <li>raybans</li> <li>messenger bag</li> </ul> </li> </ul>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="code"/><summary type="html"><![CDATA[this is what included tabs in a post could look like]]></summary></entry><entry><title type="html">a post with typograms</title><link href="https://alshedivat.github.io/al-folio/blog/2024/typograms/" rel="alternate" type="text/html" title="a post with typograms"/><published>2024-04-29T23:36:10+00:00</published><updated>2024-04-29T23:36:10+00:00</updated><id>https://alshedivat.github.io/al-folio/blog/2024/typograms</id><content type="html" xml:base="https://alshedivat.github.io/al-folio/blog/2024/typograms/"><![CDATA[<p>This is an example post with some <a href="https://github.com/google/typograms/">typograms</a> code.</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">typograms
-</span><span class="sb">+----+
-|    |---&gt; My first diagram!
-+----+</span>
-<span class="p">```</span>
-</code></pre></div></div> <p>Which generates:</p> <pre><code class="language-typograms">+----+
-|    |---&gt; My first diagram!
-+----+
-</code></pre> <p>Another example:</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">typograms
-</span><span class="sb">.------------------------.
-|.----------------------.|
-||"https://example.com" ||
-|'----------------------'|
-| ______________________ |
-||                      ||
-||   Welcome!           ||
-||                      ||
-||                      ||
-||  .----------------.  ||
-||  | username       |  ||
-||  '----------------'  ||
-||  .----------------.  ||
-||  |"*******"       |  ||
-||  '----------------'  ||
-||                      ||
-||  .----------------.  ||
-||  |   "Sign-up"    |  ||
-||  '----------------'  ||
-||                      ||
-|+----------------------+|
-.------------------------.</span>
-<span class="p">```</span>
-</code></pre></div></div> <p>which generates:</p> <pre><code class="language-typograms">.------------------------.
-|.----------------------.|
-||"https://example.com" ||
-|'----------------------'|
-| ______________________ |
-||                      ||
-||   Welcome!           ||
-||                      ||
-||                      ||
-||  .----------------.  ||
-||  | username       |  ||
-||  '----------------'  ||
-||  .----------------.  ||
-||  |"*******"       |  ||
-||  '----------------'  ||
-||                      ||
-||  .----------------.  ||
-||  |   "Sign-up"    |  ||
-||  '----------------'  ||
-||                      ||
-|+----------------------+|
-.------------------------.
-</code></pre> <p>For more examples, check out the <a href="https://google.github.io/typograms/#examples">typograms documentation</a>.</p>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="diagrams"/><summary type="html"><![CDATA[this is what included typograms code could look like]]></summary></entry><entry><title type="html">a post that can be cited</title><link href="https://alshedivat.github.io/al-folio/blog/2024/post-citation/" rel="alternate" type="text/html" title="a post that can be cited"/><published>2024-04-28T15:06:00+00:00</published><updated>2024-04-28T15:06:00+00:00</updated><id>https://alshedivat.github.io/al-folio/blog/2024/post-citation</id><content type="html" xml:base="https://alshedivat.github.io/al-folio/blog/2024/post-citation/"><![CDATA[<p>This is an example post that can be cited. The content of the post ends here, while the citation information is automatically provided below. The only thing needed is for you to set the <code class="language-plaintext highlighter-rouge">citation</code> key in the front matter to <code class="language-plaintext highlighter-rouge">true</code>.</p>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="citation"/><summary type="html"><![CDATA[this is what a post that can be cited looks like]]></summary></entry><entry><title type="html">a post with pseudo code</title><link href="https://alshedivat.github.io/al-folio/blog/2024/pseudocode/" rel="alternate" type="text/html" title="a post with pseudo code"/><published>2024-04-15T00:01:00+00:00</published><updated>2024-04-15T00:01:00+00:00</updated><id>https://alshedivat.github.io/al-folio/blog/2024/pseudocode</id><content type="html" xml:base="https://alshedivat.github.io/al-folio/blog/2024/pseudocode/"><![CDATA[<p>This is an example post with some pseudo code rendered by <a href="https://github.com/SaswatPadhi/pseudocode.js">pseudocode</a>. The example presented here is the same as the one in the <a href="https://saswat.padhi.me/pseudocode.js/">pseudocode.js</a> documentation, with only one simple but important change: everytime you would use <code class="language-plaintext highlighter-rouge">$</code>, you should use <code class="language-plaintext highlighter-rouge">$$</code> instead. Also, note that the <code class="language-plaintext highlighter-rouge">pseudocode</code> key in the front matter is set to <code class="language-plaintext highlighter-rouge">true</code> to enable the rendering of pseudo code. As an example, using this code:</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">pseudocode
-</span><span class="sb">% This quicksort algorithm is extracted from Chapter 7, Introduction to Algorithms (3rd edition)
-\begin{algorithm}
-\caption{Quicksort}
-\begin{algorithmic}
-\PROCEDURE{Quicksort}{$$A, p, r$$}
-    \IF{$$p &lt; r$$}
-        \STATE $$q = $$ \CALL{Partition}{$$A, p, r$$}
-        \STATE \CALL{Quicksort}{$$A, p, q - 1$$}
-        \STATE \CALL{Quicksort}{$$A, q + 1, r$$}
-    \ENDIF
-\ENDPROCEDURE
-\PROCEDURE{Partition}{$$A, p, r$$}
-    \STATE $$x = A[r]$$
-    \STATE $$i = p - 1$$
-    \FOR{$$j = p$$ \TO $$r - 1$$}
-        \IF{$$A[j] &lt; x$$}
-            \STATE $$i = i + 1$$
-            \STATE exchange
-            $$A[i]$$ with $$A[j]$$
-        \ENDIF
-        \STATE exchange $$A[i]$$ with $$A[r]$$
-    \ENDFOR
-\ENDPROCEDURE
-\end{algorithmic}
-\end{algorithm}</span>
-<span class="p">```</span>
-</code></pre></div></div> <p>Generates:</p> <pre><code class="language-pseudocode">% This quicksort algorithm is extracted from Chapter 7, Introduction to Algorithms (3rd edition)
-\begin{algorithm}
-\caption{Quicksort}
-\begin{algorithmic}
-\PROCEDURE{Quicksort}{$$A, p, r$$}
-    \IF{$$p &lt; r$$}
-        \STATE $$q = $$ \CALL{Partition}{$$A, p, r$$}
-        \STATE \CALL{Quicksort}{$$A, p, q - 1$$}
-        \STATE \CALL{Quicksort}{$$A, q + 1, r$$}
-    \ENDIF
-\ENDPROCEDURE
-\PROCEDURE{Partition}{$$A, p, r$$}
-    \STATE $$x = A[r]$$
-    \STATE $$i = p - 1$$
-    \FOR{$$j = p$$ \TO $$r - 1$$}
-        \IF{$$A[j] &lt; x$$}
-            \STATE $$i = i + 1$$
-            \STATE exchange
-            $$A[i]$$ with $$A[j]$$
-        \ENDIF
-        \STATE exchange $$A[i]$$ with $$A[r]$$
-    \ENDFOR
-\ENDPROCEDURE
-\end{algorithmic}
-\end{algorithm}
-</code></pre>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="code"/><summary type="html"><![CDATA[this is what included pseudo code could look like]]></summary></entry><entry><title type="html">a post with code diff</title><link href="https://alshedivat.github.io/al-folio/blog/2024/code-diff/" rel="alternate" type="text/html" title="a post with code diff"/><published>2024-01-27T19:22:00+00:00</published><updated>2024-01-27T19:22:00+00:00</updated><id>https://alshedivat.github.io/al-folio/blog/2024/code-diff</id><content type="html" xml:base="https://alshedivat.github.io/al-folio/blog/2024/code-diff/"><![CDATA[<p>You can display diff code by using the regular markdown syntax:</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">diff
-</span><span class="gh">diff --git a/sample.js b/sample.js
-index 0000001..0ddf2ba
-</span><span class="gd">--- a/sample.js
-</span><span class="gi">+++ b/sample.js
-</span><span class="p">@@ -1 +1 @@</span>
-<span class="gd">-console.log("Hello World!")
-</span><span class="gi">+console.log("Hello from Diff2Html!")</span>
-<span class="p">```</span>
-</code></pre></div></div> <p>Which generates:</p> <div class="language-diff highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gh">diff --git a/sample.js b/sample.js
-index 0000001..0ddf2ba
-</span><span class="gd">--- a/sample.js
-</span><span class="gi">+++ b/sample.js
-</span><span class="p">@@ -1 +1 @@</span>
-<span class="gd">-console.log("Hello World!")
-</span><span class="gi">+console.log("Hello from Diff2Html!")
-</span></code></pre></div></div> <p>But this is difficult to read, specially if you have a large diff. You can use <a href="https://diff2html.xyz/">diff2html</a> to display a more readable version of the diff. For this, just use <code class="language-plaintext highlighter-rouge">diff2html</code> instead of <code class="language-plaintext highlighter-rouge">diff</code> for the code block language:</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">diff2html
-</span><span class="sb">diff --git a/sample.js b/sample.js
-index 0000001..0ddf2ba
---- a/sample.js
-+++ b/sample.js
-@@ -1 +1 @@
--console.log("Hello World!")
-+console.log("Hello from Diff2Html!")</span>
-<span class="p">```</span>
-</code></pre></div></div> <p>If we use a longer example, for example <a href="https://github.com/rtfpessoa/diff2html/commit/c2c253d3e3f8b8b267f551e659f72b44ca2ac927">this commit from diff2html</a>, it will generate the following output:</p> <pre><code class="language-diff2html">From 2aaae31cc2a37bfff83430c2c914b140bee59b6a Mon Sep 17 00:00:00 2001
-From: Rodrigo Fernandes &lt;rtfrodrigo@gmail.com&gt;
-Date: Sun, 9 Oct 2016 16:41:54 +0100
-Subject: [PATCH 1/2] Initial template override support
+  <span class="nf">print</span><span class="p">(</span><span class="sa">f</span><span class="sh">"</span><span class="s">Size of training data: </span><span class="si">{</span><span class="nf">len</span><span class="p">(</span><span class="n">training_data</span><span class="p">)</span><span class="si">}</span><span class="s">nSize of test data: </span><span class="si">{</span><span class="nf">len</span><span class="p">(</span><span class="n">test_data</span><span class="p">)</span><span class="si">}</span><span class="sh">"</span><span class="p">)</span></code></pre></figure> <ul> <li><strong>Upload the training and test data to S3</strong> –– Once the training and test sets are ready and formatted as a list of dictionaries, we upload them to S3 as JSON lines using the utility function below:</li> </ul> <figure class="highlight"><pre><code class="language-python" data-lang="python">  <span class="k">def</span> <span class="nf">write_jsonlines_to_s3</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="n">s3_path</span><span class="p">):</span>
+    <span class="sh">"""</span><span class="s">Writes list of dictionaries as a JSON lines file to S3</span><span class="sh">"""</span>
 
----
- scripts/hulk.js                    |  4 ++--
- src/diff2html.js                   |  3 +--
- src/file-list-printer.js           | 11 ++++++++---
- src/hoganjs-utils.js               | 29 +++++++++++++++++------------
- src/html-printer.js                |  6 ++++++
- src/line-by-line-printer.js        |  6 +++++-
- src/side-by-side-printer.js        |  6 +++++-
- test/file-list-printer-tests.js    |  2 +-
- test/hogan-cache-tests.js          | 18 +++++++++++++++---
- test/line-by-line-tests.js         |  3 +--
- test/side-by-side-printer-tests.js |  3 +--
- 11 files changed, 62 insertions(+), 29 deletions(-)
+    <span class="n">json_string</span> <span class="o">=</span> <span class="sh">""</span>
+    <span class="k">for</span> <span class="n">d</span> <span class="ow">in</span> <span class="n">data</span><span class="p">:</span>
+        <span class="n">json_string</span> <span class="o">+=</span> <span class="n">json</span><span class="p">.</span><span class="nf">dumps</span><span class="p">(</span><span class="n">d</span><span class="p">)</span> <span class="o">+</span> <span class="sh">"</span><span class="s">n</span><span class="sh">"</span>
 
-diff --git a/scripts/hulk.js b/scripts/hulk.js
-index 5a793c18..a4b1a4d5 100755
---- a/scripts/hulk.js
-+++ b/scripts/hulk.js
-@@ -173,11 +173,11 @@ function namespace(name) {
- // write a template foreach file that matches template extension
- templates = extractFiles(options.argv.remain)
-   .map(function(file) {
--    var openedFile = fs.readFileSync(file, 'utf-8');
-+    var openedFile = fs.readFileSync(file, 'utf-8').trim();
-     var name;
-     if (!openedFile) return;
-     name = namespace(path.basename(file).replace(/\..*$/, ''));
--    openedFile = removeByteOrderMark(openedFile.trim());
-+    openedFile = removeByteOrderMark(openedFile);
-     openedFile = wrap(file, name, openedFile);
-     if (!options.outputdir) return openedFile;
-     fs.writeFileSync(path.join(options.outputdir, name + '.js')
-diff --git a/src/diff2html.js b/src/diff2html.js
-index 21b0119e..64e138f5 100644
---- a/src/diff2html.js
-+++ b/src/diff2html.js
-@@ -7,7 +7,6 @@
+    <span class="n">s3_client</span>   <span class="o">=</span> <span class="n">boto3</span><span class="p">.</span><span class="nf">client</span><span class="p">(</span><span class="sh">"</span><span class="s">s3</span><span class="sh">"</span><span class="p">)</span>
 
- (function() {
-   var diffParser = require('./diff-parser.js').DiffParser;
--  var fileLister = require('./file-list-printer.js').FileListPrinter;
-   var htmlPrinter = require('./html-printer.js').HtmlPrinter;
+    <span class="n">bucket</span><span class="p">,</span> <span class="n">key</span> <span class="o">=</span> <span class="n">s3_utils</span><span class="p">.</span><span class="nf">parse_s3_url</span><span class="p">(</span><span class="n">s3_path</span><span class="p">)</span>
+    <span class="n">s3_client</span><span class="p">.</span><span class="nf">put_object</span><span class="p">(</span>
+        <span class="n">Body</span>   <span class="o">=</span> <span class="n">json_string</span><span class="p">,</span>
+        <span class="n">Bucket</span> <span class="o">=</span> <span class="n">bucket</span><span class="p">,</span>
+        <span class="n">Key</span>    <span class="o">=</span> <span class="n">key</span><span class="p">,</span>
+    <span class="p">)</span>
 
-   function Diff2Html() {
-@@ -43,7 +42,7 @@
+  <span class="nf">write_jsonlines_to_s3</span><span class="p">(</span><span class="n">training_data</span><span class="p">,</span> <span class="n">training_data_path</span><span class="p">)</span>
+  <span class="nf">write_jsonlines_to_s3</span><span class="p">(</span><span class="n">test_data</span><span class="p">,</span> <span class="n">test_data_path</span><span class="p">)</span></code></pre></figure> <h2 id="sagemaker-training-job">SageMaker Training job</h2> <p>With the datasets available in S3, we will now create a training job in Amazon SageMaker. For that, we have to create an entry point script, modify the configuration file specifying the training settings, and define an HuggingFace estimator. We will (re-)use the training script from <a href="https://github.com/mosaicml/llm-foundry">LLM Foundry</a> and <a href="https://github.com/mosaicml/composer">Composer</a> library’s CLI launcher that sets up the distributed training environment. Both of these packages are maintained by <a href="mosaicml.com">MosaicML</a>, the company behind MPT-7B. The working folder should be structured like:</p> <figure class="highlight"><pre><code class="language-python" data-lang="python">  <span class="err">└──</span> <span class="n">fine</span><span class="o">-</span><span class="n">tune</span><span class="o">-</span><span class="n">mpt</span><span class="o">-</span><span class="mi">7</span><span class="n">b</span><span class="o">-</span><span class="n">sagemaker</span><span class="o">/</span>
+      <span class="err">├──</span> <span class="n">training_script_launcher</span><span class="p">.</span><span class="n">sh</span>
+      <span class="err">├──</span> <span class="n">fine_tuning_config</span><span class="p">.</span><span class="n">yaml</span>
+      <span class="err">├──</span> <span class="n">sagemaker_finetuning</span><span class="p">.</span><span class="n">ipynb</span></code></pre></figure> <p>We will now dive deep into each of these files.</p> <ul> <li><strong>Create a configuration file <a href="https://github.com/jpcpereira/sagemaker-fine-tune-mpt-7b/blob/main/finetuning_config.yaml"><code class="language-plaintext highlighter-rouge">finetuning_config.yaml</code></a></strong> –– The template provided in the <a href="https://github.com/mosaicml/llm-foundry">LLM Foundry</a> repository is a good starting point, specifically the <a href="https://github.com/mosaicml/llm-foundry/blob/main/scripts/train/yamls/finetune/mpt-7b_dolly_sft.yaml"><code class="language-plaintext highlighter-rouge">mpt-7b-dolly-sft.yaml</code></a> file. However, depending on your dataset size and training instance, you might have to adjust some of these configurations, such as the batch size. I have modified the file to fine-tune the model in SageMaker (check <a href="https://github.com/jpcpereira/sagemaker-fine-tune-mpt-7b/blob/main/finetuning_config.yaml"><code class="language-plaintext highlighter-rouge">finetuning_config.yaml</code></a>). The parameters that you should pay attention to are the following:</li> </ul> <figure class="highlight"><pre><code class="language-python" data-lang="python">  <span class="n">max_seq_len</span><span class="p">:</span> <span class="mi">512</span>
+  <span class="n">global_seed</span><span class="p">:</span> <span class="mi">17</span>
 
-     var fileList = '';
-     if (configOrEmpty.showFiles === true) {
--      fileList = fileLister.generateFileList(diffJson, configOrEmpty);
-+      fileList = htmlPrinter.generateFileListSummary(diffJson, configOrEmpty);
-     }
+  <span class="bp">...</span>
+  <span class="c1"># Dataloaders
+</span>  <span class="n">train_loader</span><span class="p">:</span>
+    <span class="n">name</span><span class="p">:</span> <span class="n">finetuning</span>
+    <span class="n">dataset</span><span class="p">:</span>
+      <span class="n">hf_name</span><span class="p">:</span> <span class="n">json</span>
+      <span class="n">hf_kwargs</span><span class="p">:</span>
+          <span class="n">data_dir</span><span class="p">:</span> <span class="o">/</span><span class="n">opt</span><span class="o">/</span><span class="n">ml</span><span class="o">/</span><span class="nb">input</span><span class="o">/</span><span class="n">data</span><span class="o">/</span><span class="n">train</span><span class="o">/</span>
+  <span class="bp">...</span>
 
-     var diffOutput = '';
-diff --git a/src/file-list-printer.js b/src/file-list-printer.js
-index e408d9b2..1e0a2c61 100644
---- a/src/file-list-printer.js
-+++ b/src/file-list-printer.js
-@@ -8,11 +8,16 @@
- (function() {
-   var printerUtils = require('./printer-utils.js').PrinterUtils;
+  <span class="n">eval_loader</span><span class="p">:</span>
+    <span class="n">name</span><span class="p">:</span> <span class="n">finetuning</span>
+    <span class="n">dataset</span><span class="p">:</span>
+      <span class="n">hf_name</span><span class="p">:</span> <span class="n">json</span>
+      <span class="n">hf_kwargs</span><span class="p">:</span>
+          <span class="n">data_dir</span><span class="p">:</span> <span class="o">/</span><span class="n">opt</span><span class="o">/</span><span class="n">ml</span><span class="o">/</span><span class="nb">input</span><span class="o">/</span><span class="n">data</span><span class="o">/</span><span class="n">test</span><span class="o">/</span>
 
--  var hoganUtils = require('./hoganjs-utils.js').HoganJsUtils;
-+  var hoganUtils;
-+
-   var baseTemplatesPath = 'file-summary';
-   var iconsBaseTemplatesPath = 'icon';
+  <span class="bp">...</span>
+  <span class="n">max_duration</span><span class="p">:</span> <span class="mi">3</span><span class="n">ep</span>
+  <span class="n">eval_interval</span><span class="p">:</span> <span class="mi">1</span><span class="n">ep</span>
+  <span class="bp">...</span>
+  <span class="n">global_train_batch_size</span><span class="p">:</span> <span class="mi">128</span>
 
--  function FileListPrinter() {
-+  function FileListPrinter(config) {
-+    this.config = config;
-+
-+    var HoganJsUtils = require('./hoganjs-utils.js').HoganJsUtils;
-+    hoganUtils = new HoganJsUtils(config);
-   }
+  <span class="bp">...</span>
+  <span class="c1"># FSDP
+</span>  <span class="n">fsdp_config</span><span class="p">:</span>
+    <span class="n">sharding_strategy</span><span class="p">:</span> <span class="n">FULL_SHARD</span>
+    <span class="n">mixed_precision</span><span class="p">:</span> <span class="n">PURE</span>
+    <span class="n">activation_checkpointing</span><span class="p">:</span> <span class="n">true</span>
+    <span class="n">activation_checkpointing_reentrant</span><span class="p">:</span> <span class="n">false</span>
+    <span class="n">activation_cpu_offload</span><span class="p">:</span> <span class="n">false</span>
+    <span class="n">limit_all_gathers</span><span class="p">:</span> <span class="n">true</span>
+    <span class="n">verbose</span><span class="p">:</span> <span class="n">false</span>
 
-   FileListPrinter.prototype.generateFileList = function(diffFiles) {
-@@ -38,5 +43,5 @@
-     });
-   };
+  <span class="c1"># Checkpoint to local filesystem or remote object store
+</span>  <span class="n">save_folder</span><span class="p">:</span> <span class="o">/</span><span class="n">tmp</span><span class="o">/</span><span class="n">checkpoints</span>
+  <span class="n">dist_timeout</span><span class="p">:</span> <span class="mi">2000</span></code></pre></figure> <p>The <code class="language-plaintext highlighter-rouge">max_seq_length</code> indicates the maximum number of tokens of the input (remember that 100 tokens ~ 75 words). The training and test data will be loaded using the 😊 <a href="https://huggingface.co/docs/datasets/index">Datasets</a> library from the <code class="language-plaintext highlighter-rouge">/opt/ml/input/data/{train, test}</code> directory inside the container associated with the training job. Check out the <a href="https://docs.aws.amazon.com/sagemaker/latest/dg/model-train-storage.html">SageMaker Training Storage Folders</a>‘ documentation to understand how the container directories are structured. The <code class="language-plaintext highlighter-rouge">max_duration</code> specifies the number of epochs for fine-tuning. Two to three epochs is typically a good choice. <code class="language-plaintext highlighter-rouge">eval_interval</code> indicates how often the model will be evaluated on the test set.</p> <p>The distributed training strategy is Fully Sharded Data Parallel (FSDP), which enables efficient training of large models like MPT-7B. Unlike the traditional data parallel strategy, which keeps a copy of the model in each GPU, FSDP shards model parameters, optimizer states, and gradients across data parallel workers. If you want to learn more about FSDP, check this insightful <a href="https://pytorch.org/blog/introducing-pytorch-fully-sharded-data-parallel-api">PyTorch intro post</a>. FSDP is integrated in <a href="https://github.com/mosaicml/composer">Composer</a>, the distributed training library used by <a href="https://github.com/mosaicml/llm-foundry">LLM Foundry</a>.</p> <p><code class="language-plaintext highlighter-rouge">save_folder</code> determines where the model checkpoint (<code class="language-plaintext highlighter-rouge">.pt</code> file) is saved. We set it to the temporary folder <code class="language-plaintext highlighter-rouge">/tmp/checkpoints</code>.</p> <ul> <li><strong>Create the entry point script <a href="https://github.com/jpcpereira/sagemaker-fine-tune-mpt-7b/blob/main/launcher.sh"><code class="language-plaintext highlighter-rouge">launcher.sh</code></a></strong> –— A bash script is used as entry point. The bash script clones the LLM Foundry repository, installs requirements, and, more importantly, runs the training script using Composer library’s distributed launcher. Note that, typically, training jobs in SageMaker run the training script using a command like <code class="language-plaintext highlighter-rouge">python train.py</code>. However, it is possible to pass a bash script as entry point, which provides more flexibility in our scenario. Finally, we convert the model checkpoint saved to <code class="language-plaintext highlighter-rouge">/tmp/checkpoints</code> to the HuggingFace model format and save the final artifacts into <code class="language-plaintext highlighter-rouge">/opt/ml/model/</code>. SageMaker will compress all files in this directory, create a tarball <code class="language-plaintext highlighter-rouge">model.tar.gz</code>, and upload it to S3. The tarball is useful for inference.</li> </ul> <figure class="highlight"><pre><code class="language-python" data-lang="python">  <span class="c1"># Clone llm-foundry package from MosaicML
+</span>  <span class="c1"># This is where the training script is hosted
+</span>  <span class="n">git</span> <span class="n">clone</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">github</span><span class="p">.</span><span class="n">com</span><span class="o">/</span><span class="n">mosaicml</span><span class="o">/</span><span class="n">llm</span><span class="o">-</span><span class="n">foundry</span><span class="p">.</span><span class="n">git</span>
+  <span class="n">cd</span> <span class="n">llm</span><span class="o">-</span><span class="n">foundry</span>
 
--  module.exports.FileListPrinter = new FileListPrinter();
-+  module.exports.FileListPrinter = FileListPrinter;
- })();
-diff --git a/src/hoganjs-utils.js b/src/hoganjs-utils.js
-index 9949e5fa..0dda08d7 100644
---- a/src/hoganjs-utils.js
-+++ b/src/hoganjs-utils.js
-@@ -8,18 +8,19 @@
- (function() {
-   var fs = require('fs');
-   var path = require('path');
--
-   var hogan = require('hogan.js');
+  <span class="c1"># Install required packages
+</span>  <span class="n">pip</span> <span class="n">install</span> <span class="o">-</span><span class="n">e</span> <span class="sh">"</span><span class="s">.[gpu]</span><span class="sh">"</span>
+  <span class="n">pip</span> <span class="n">install</span> <span class="n">git</span><span class="o">+</span><span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">github</span><span class="p">.</span><span class="n">com</span><span class="o">/</span><span class="n">mosaicml</span><span class="o">/</span><span class="n">composer</span><span class="p">.</span><span class="n">git</span><span class="nd">@dev</span>
 
-   var hoganTemplates = require('./templates/diff2html-templates.js');
+  <span class="c1"># Run training script with fine-tuning configuration
+</span>  <span class="n">composer</span> <span class="n">scripts</span><span class="o">/</span><span class="n">train</span><span class="o">/</span><span class="n">train</span><span class="p">.</span><span class="n">py</span> <span class="o">/</span><span class="n">opt</span><span class="o">/</span><span class="n">ml</span><span class="o">/</span><span class="n">code</span><span class="o">/</span><span class="n">finetuning_config</span><span class="p">.</span><span class="n">yaml</span>
 
--  var templatesPath = path.resolve(__dirname, 'templates');
-+  var extraTemplates;
+  <span class="c1"># Convert Composer checkpoint to HuggingFace model format
+</span>  <span class="n">python</span> <span class="n">scripts</span><span class="o">/</span><span class="n">inference</span><span class="o">/</span><span class="n">convert_composer_to_hf</span><span class="p">.</span><span class="n">py</span> 
+      <span class="o">--</span><span class="n">composer_path</span> <span class="o">/</span><span class="n">tmp</span><span class="o">/</span><span class="n">checkpoints</span><span class="o">/</span><span class="n">latest</span><span class="o">-</span><span class="n">rank0</span><span class="p">.</span><span class="n">pt</span> 
+      <span class="o">--</span><span class="n">hf_output_path</span> <span class="o">/</span><span class="n">opt</span><span class="o">/</span><span class="n">ml</span><span class="o">/</span><span class="n">model</span><span class="o">/</span><span class="n">hf_fine_tuned_model</span> 
+      <span class="o">--</span><span class="n">output_precision</span> <span class="n">bf16</span>
 
--  function HoganJsUtils() {
-+  function HoganJsUtils(configuration) {
-+    this.config = configuration || {};
-+    extraTemplates = this.config.templates || {};
-   }
+  <span class="c1"># Print content of the model artifact directory
+</span>  <span class="n">ls</span> <span class="o">/</span><span class="n">opt</span><span class="o">/</span><span class="n">ml</span><span class="o">/</span><span class="n">model</span><span class="o">/</span></code></pre></figure> <ul> <li><strong>Define 😊 HuggingFace Estimator</strong> –– The Estimator sets the Docker container used to run the training job. We will use an image with PyTorch 2.0.0 and Python 3.10. The bash script and the configuration file are automatically uploaded to S3 and made available inside the container (handled by the SageMaker Python SDK). We set the training instance to <a href="https://aws.amazon.com/ec2/instance-types/g5"><code class="language-plaintext highlighter-rouge">g5.48xlarge</code></a> that has 8x NVIDIA A10G GPUs. The <a href="https://aws.amazon.com/ec2/instance-types/p4"><code class="language-plaintext highlighter-rouge">p4d.24xlarge</code></a> is also a good choice. Even though it is more expensive, it is equipped with 8x NVIDIA A100 GPUs. We also indicate the metrics to track on the training and test sets (Cross Entropy and Perplexity). The values of these metrics are captured via Regex expressions and sent to Amazon CloudWatch.</li> </ul> <figure class="highlight"><pre><code class="language-python" data-lang="python">  <span class="c1"># Define container image for the training job
+</span>  <span class="n">training_image_uri</span> <span class="o">=</span> <span class="sa">f</span><span class="sh">"</span><span class="s">763104351884.dkr.ecr.</span><span class="si">{</span><span class="n">region</span><span class="si">}</span><span class="s">.amazonaws.com/huggingface-pytorch-training:2.0.0-transformers4.28.1-gpu-py310-cu118-ubuntu20.04-v1.1</span><span class="sh">"</span>
 
--  HoganJsUtils.prototype.render = function(namespace, view, params, configuration) {
--    var template = this.template(namespace, view, configuration);
-+  HoganJsUtils.prototype.render = function(namespace, view, params) {
-+    var template = this.template(namespace, view);
-     if (template) {
-       return template.render(params);
-     }
-@@ -27,17 +28,16 @@
-     return null;
-   };
+  <span class="c1"># Define metrics to send to CloudWatch
+</span>  <span class="n">metrics</span> <span class="o">=</span> <span class="p">[</span>
+      <span class="c1"># On training set
+</span>      <span class="p">{</span><span class="sh">"</span><span class="s">Name</span><span class="sh">"</span><span class="p">:</span> <span class="sh">"</span><span class="s">train:LanguageCrossEntropy</span><span class="sh">"</span><span class="p">,</span>
+      <span class="sh">"</span><span class="s">Regex</span><span class="sh">"</span><span class="p">:</span> <span class="sh">"</span><span class="s">Train metrics/train/LanguageCrossEntropy: ([+-]?((d+.?d*)|(.d+)))</span><span class="sh">"</span><span class="p">},</span>
+      <span class="p">{</span><span class="sh">"</span><span class="s">Name</span><span class="sh">"</span><span class="p">:</span> <span class="sh">"</span><span class="s">train:LanguagePerplexity</span><span class="sh">"</span><span class="p">,</span>
+      <span class="sh">"</span><span class="s">Regex</span><span class="sh">"</span><span class="p">:</span> <span class="sh">"</span><span class="s">Train metrics/train/LanguagePerplexity: ([+-]?((d+.?d*)|(.d+)))</span><span class="sh">"</span><span class="p">},</span>
+      <span class="c1"># On test set
+</span>      <span class="p">{</span><span class="sh">"</span><span class="s">Name</span><span class="sh">"</span><span class="p">:</span> <span class="sh">"</span><span class="s">test:LanguageCrossEntropy</span><span class="sh">"</span><span class="p">,</span>
+      <span class="sh">"</span><span class="s">Regex</span><span class="sh">"</span><span class="p">:</span> <span class="sh">"</span><span class="s">Eval metrics/eval/LanguageCrossEntropy: ([+-]?((d+.?d*)|(.d+)))</span><span class="sh">"</span><span class="p">},</span>
+      <span class="p">{</span><span class="sh">"</span><span class="s">Name</span><span class="sh">"</span><span class="p">:</span> <span class="sh">"</span><span class="s">test:LanguagePerplexity</span><span class="sh">"</span><span class="p">,</span>
+      <span class="sh">"</span><span class="s">Regex</span><span class="sh">"</span><span class="p">:</span> <span class="sh">"</span><span class="s">Eval metrics/eval/LanguagePerplexity: ([+-]?((d+.?d*)|(.d+)))</span><span class="sh">"</span><span class="p">},</span>
+  <span class="p">]</span>
 
--  HoganJsUtils.prototype.template = function(namespace, view, configuration) {
--    var config = configuration || {};
-+  HoganJsUtils.prototype.template = function(namespace, view) {
-     var templateKey = this._templateKey(namespace, view);
+  <span class="n">estimator_args</span> <span class="o">=</span> <span class="p">{</span>
+      <span class="sh">"</span><span class="s">image_uri</span><span class="sh">"</span><span class="p">:</span> <span class="n">training_image_uri</span><span class="p">,</span>     <span class="c1"># Training container image
+</span>      <span class="sh">"</span><span class="s">entry_point</span><span class="sh">"</span><span class="p">:</span> <span class="sh">"</span><span class="s">launcher.sh</span><span class="sh">"</span><span class="p">,</span>        <span class="c1"># Launcher bash script
+</span>      <span class="sh">"</span><span class="s">source_dir</span><span class="sh">"</span><span class="p">:</span> <span class="sh">"</span><span class="s">.</span><span class="sh">"</span><span class="p">,</span>                   <span class="c1"># Directory with launcher script and configuration file
+</span>      <span class="sh">"</span><span class="s">instance_type</span><span class="sh">"</span><span class="p">:</span> <span class="sh">"</span><span class="s">ml.g5.48xlarge</span><span class="sh">"</span><span class="p">,</span>   <span class="c1"># Instance type
+</span>      <span class="sh">"</span><span class="s">instance_count</span><span class="sh">"</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span>                 <span class="c1"># Number of training instances
+</span>      <span class="sh">"</span><span class="s">base_job_name</span><span class="sh">"</span><span class="p">:</span> <span class="sh">"</span><span class="s">fine-tune-mpt-7b</span><span class="sh">"</span><span class="p">,</span> <span class="c1"># Prefix of the training job name
+</span>      <span class="sh">"</span><span class="s">role</span><span class="sh">"</span><span class="p">:</span> <span class="n">role</span><span class="p">,</span>                        <span class="c1"># IAM role
+</span>      <span class="sh">"</span><span class="s">volume_size</span><span class="sh">"</span><span class="p">:</span> <span class="mi">300</span><span class="p">,</span>                  <span class="c1"># Size of the EBS volume attached to the instance (GB)
+</span>      <span class="sh">"</span><span class="s">py_version</span><span class="sh">"</span><span class="p">:</span> <span class="sh">"</span><span class="s">py310</span><span class="sh">"</span><span class="p">,</span>               <span class="c1"># Python version
+</span>      <span class="sh">"</span><span class="s">metric_definitions</span><span class="sh">"</span><span class="p">:</span> <span class="n">metrics</span><span class="p">,</span>       <span class="c1"># Metrics to track
+</span>      <span class="sh">"</span><span class="s">output_path</span><span class="sh">"</span><span class="p">:</span> <span class="n">output_path</span><span class="p">,</span>          <span class="c1"># S3 location where the model artifact will be uploaded
+</span>      <span class="sh">"</span><span class="s">code_location</span><span class="sh">"</span><span class="p">:</span> <span class="n">code_location</span><span class="p">,</span>      <span class="c1"># S3 location where the source code will be saved
+</span>      <span class="sh">"</span><span class="s">disable_profiler</span><span class="sh">"</span><span class="p">:</span> <span class="bp">True</span><span class="p">,</span>            <span class="c1"># Do not create profiler instance
+</span>      <span class="sh">"</span><span class="s">keep_alive_period_in_seconds</span><span class="sh">"</span><span class="p">:</span> <span class="mi">240</span><span class="p">,</span> <span class="c1"># Enable Warm Pools while experimenting
+</span>  <span class="p">}</span>
 
--    return this._getTemplate(templateKey, config);
-+    return this._getTemplate(templateKey);
-   };
+  <span class="n">huggingface_estimator</span> <span class="o">=</span> <span class="nc">HuggingFace</span><span class="p">(</span><span class="o">**</span><span class="n">estimator_args</span><span class="p">)</span></code></pre></figure> <blockquote> <p>⚠️ Make sure to request the respective quotas for SageMaker Training, along with <a href="https://docs.aws.amazon.com/sagemaker/latest/dg/train-warm-pools.html">Warm Pools</a>‘ quota in case you are making use of this cool feature. If you plan to run many jobs in SageMaker, take a look at <a href="https://aws.amazon.com/savingsplans/ml-pricing">SageMaker Saving Plans</a>.</p> </blockquote> <ul> <li><strong>Launch the training job 🚀</strong> –– We have all set to start the training job on Amazon SageMaker:</li> </ul> <figure class="highlight"><pre><code class="language-python" data-lang="python">  <span class="n">huggingface_estimator</span><span class="p">.</span><span class="nf">fit</span><span class="p">({</span>
+      <span class="sh">"</span><span class="s">train</span><span class="sh">"</span><span class="p">:</span> <span class="nc">TrainingInput</span><span class="p">(</span>
+          <span class="n">s3_data</span><span class="o">=</span><span class="n">training_data_path</span><span class="p">,</span>
+          <span class="n">content_type</span><span class="o">=</span><span class="sh">"</span><span class="s">application/jsonlines</span><span class="sh">"</span><span class="p">),</span>
+      <span class="sh">"</span><span class="s">test</span><span class="sh">"</span><span class="p">:</span> <span class="nc">TrainingInput</span><span class="p">(</span>
+          <span class="n">s3_data</span><span class="o">=</span><span class="n">test_data_path</span><span class="p">,</span>
+          <span class="n">content_type</span><span class="o">=</span><span class="sh">"</span><span class="s">application/jsonlines</span><span class="sh">"</span><span class="p">),</span>
+  <span class="p">},</span> <span class="n">wait</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span></code></pre></figure> <p>The training time will depend on the size of your dataset. With our dummy dataset, training takes roughly <strong>20min</strong> to complete. Once the model is trained and converted to 😊 HuggingFace format, SageMaker will upload the model tarball (<code class="language-plaintext highlighter-rouge">model.tar.gz</code>) to the S3 <code class="language-plaintext highlighter-rouge">output_path</code>. I found that in practice the uploading step takes rather long (&gt;1h), which might be due to the size of the model artifacts to compress (~25GB).</p> <h2 id="summary">Summary</h2> <p>In this article, I showed how you can prepare a dataset and create a training job in SageMaker to fine-tune MPT-7B for your use case. The implementation leverages the training script from <a href="https://github.com/mosaicml/llm-foundry">LLM Foundry</a> and uses <a href="https://github.com/mosaicml/composer">Composer</a> library’s distributed training launcher. Once you have fine-tuned your model and want to deploy it, I recommend to check out the blog posts by <a href="https://www.philschmid.de">Philipp Schmid</a>; there are plenty of examples on how to deploy LLMs in SageMaker. Have fun with your fine-tuned MPT-7B model! 🎉</p> <p>All the code used in this article is available on my Github:</p> <blockquote> <p>GitHub – jpcpereira/sagemaker-fine-tune-mpt-7b</p> </blockquote>]]></content><author><name>João Pereira</name></author><category term="AI"/><category term="solar-scan"/><summary type="html"><![CDATA[Learn how to prepare a dataset and create a training job to fine-tune MPT-7B on Amazon SageMaker.]]></summary></entry><entry><title type="html">Fast and Scalable Hyperparameter Tuning and Cross-validation in AWS SageMaker</title><link href="https://jpcpereira.github.io/blog/2023/hyperparameter-tuning/" rel="alternate" type="text/html" title="Fast and Scalable Hyperparameter Tuning and Cross-validation in AWS SageMaker"/><published>2023-03-03T00:00:00+00:00</published><updated>2023-03-03T00:00:00+00:00</updated><id>https://jpcpereira.github.io/blog/2023/hyperparameter-tuning</id><content type="html" xml:base="https://jpcpereira.github.io/blog/2023/hyperparameter-tuning/"><![CDATA[<p>This article shares a recipe to <strong>speeding up to 60%</strong> your <strong>hyperparameter tuning with cross-validation in SageMaker Pipelines leveraging SageMaker Managed Warm Pools. By using Warm Pools, the runtime of a Tuning step with 120 sequential jobs is reduced</strong> from 10h to 4h.</p> <p>Improving and evaluating the performance of a machine learning model often requires a variety of ingredients. Hyperparameter tuning and cross-validation are 2 such ingredients. The first finds the best version of a model, while the second estimates how a model will generalize to unseen data. These steps, combined, introduce computing challenges as they require training and validating a model multiple times, in parallel and/or in sequence.</p> <p><strong>What this article is about…</strong></p> <ul> <li>What are Warm Pools and how to leverage them to speed-up hyperparameter tuning with cross-validation.</li> <li>How to design a production-grade SageMaker Pipeline that includes Processing, Tuning, Training, and Lambda steps.</li> </ul> <p>We will consider <a href="https://towardsdatascience.com/bayesian-optimization-for-hyperparameter-tuning-how-and-why-655b0ee0b399">Bayesian optimization</a> for hyperparameter tuning that leverages the scores of the hyperparameter combinations already tested to choose the hyperparameter set to test in the next round. We will use $ k $-fold cross-validation to score each combination of hyperparameters, in which the splits are as follows:</p> <div class="row mt-3"> <div class="col-sm mt-3 mt-md-0"> <figure> <picture> <source class="responsive-img-srcset" srcset="/assets/img/folds-480.webp 480w,/assets/img/folds-800.webp 800w,/assets/img/folds-1400.webp 1400w," type="image/webp" sizes="95vw"/> <img src="/assets/img/folds.png" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"/> </picture> </figure> </div> </div> <div class="caption"> $ k $-fold cross-validation strategy. </div> <p>The full dataset is partitioned into 𝑘 validation folds, the model trained on $ k-1 $ folds, and validated on its corresponding held-out fold. The overall score is the average over the individual validation scores obtained for each validation fold.</p> <hr/> <h2 id="what-are-warm-pools">What are Warm Pools?</h2> <p>Whenever a training job is launched in AWS, the provisioned instance takes roughly 3min to bootstrap before the training script is executed. This startup time adds up when running multiple jobs sequentially, which is the case when performing hyperparameter tuning using a Bayesian optimization strategy. Here, dozens or even hundreds of jobs are run in sequence leading to a significant total time that can be on par with or even higher than the actual execution times of the scripts.</p> <p><a href="https://aws.amazon.com/about-aws/whats-new/2022/09/reduce-ml-model-training-job-startup-time-8x-sagemaker-training-managed-warm-pools/">SageMaker Managed Warm Pools</a> make it possible to retain training infrastructure after a job is completed for a desired number of seconds, enabling saving the instance startup time for every subsequent job.</p> <p>Enabling Warm Pools is straightforward. You simply add an extra parameter (<code class="language-plaintext highlighter-rouge">keep_alive_period_in_seconds</code>) when creating a training job in SageMaker:</p> <figure class="highlight"><pre><code class="language-python" data-lang="python">  <span class="n">estimator</span> <span class="o">=</span> <span class="nc">Estimator</span><span class="p">(</span>
+    <span class="n">entry_point</span><span class="o">=</span><span class="sh">'</span><span class="s">training.py</span><span class="sh">'</span><span class="p">,</span>
+    <span class="n">keep_alive_period_in_seconds</span><span class="o">=</span><span class="mi">600</span><span class="p">,</span>
+    <span class="bp">...</span>
+  <span class="p">)</span></code></pre></figure> <p>If you want to learn more about SageMaker Managed Warm Pools, here is the documentation:</p> <blockquote> <p><a href="https://docs.aws.amazon.com/sagemaker/latest/dg/train-warm-pools.html">Train Using SageMaker Managed Warm Pools</a></p> </blockquote> <p>Now that we know what are Warm Pools, in Section <a href="#end-to-end-sagemaker-pipeline">End-to-End SageMaker Pipeline</a> we are going to dive deep into how to leverage them to speed-up the overall runtime of a SageMaker Pipeline that includes hyperparameter tuning with cross-validation.</p> <h2 id="end-to-end-sagemaker-pipeline">End-to-end SageMaker Pipeline</h2> <p>The following figure depicts an end-to-end SageMaker Pipeline that performs hyperparameter tuning with cross-validation.</p> <div class="row mt-3"> <div class="col-sm mt-3 mt-md-0"> <figure> <picture> <source class="responsive-img-srcset" srcset="/assets/img/pipeline-480.webp 480w,/assets/img/pipeline-800.webp 800w,/assets/img/pipeline-1400.webp 1400w," type="image/webp" sizes="95vw"/> <img src="/assets/img/pipeline.png" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"/> </picture> </figure> </div> </div> <div class="caption"> Architecture diagram of the end-to-end SageMaker Pipeline. </div> <p>We will create the pipeline using the <a href="https://sagemaker.readthedocs.io/en/stable">SageMaker Python SDK</a>, which is an open-source library that simplifies the process of training, tuning, and deploying machine learning models in AWS SageMaker. The pipeline steps in the diagram are summarized as follows:</p> <ol> <li><strong>Data Preprocessing</strong> (<code class="language-plaintext highlighter-rouge">ProcessingStep</code>) — Data is retrieved from the source, transformed, and split into k cross-validation folds. An additional full dataset is saved for final training.</li> <li><strong>Hyperparameter Tuning With CV</strong> (<code class="language-plaintext highlighter-rouge">TuningStep</code>) — This is the step that we will concentrate on. It finds the combination of hyperparameters that achieves the best average performance across validation folds.</li> <li><strong>Optimal Hyperparameters Retrieval</strong> (<code class="language-plaintext highlighter-rouge">LambdaStep</code>) — Fires a Lambda function that retrieves the optimal set of hyperparameters by accessing the results of the hyperparameter tuning job using Boto3.</li> <li><strong>Final Training</strong> (<code class="language-plaintext highlighter-rouge">TrainingStep</code>) — Trains the model on the full dataset <code class="language-plaintext highlighter-rouge">train_full.csv</code> with the optimal hyperparameters.</li> <li><strong>Model Registration</strong> (<code class="language-plaintext highlighter-rouge">ModelStep</code>) –– Registers the final trained model in the SageMaker Model Registry.</li> <li><strong>Inference</strong> (<code class="language-plaintext highlighter-rouge">TransformStep</code>) –– Generates predictions using the registered model.</li> </ol> <p>Please find detailed documentation on how to implement these steps on the <a href="https://docs.aws.amazon.com/sagemaker/latest/dg/build-and-manage-steps.html">SageMaker Developer Guide</a>.</p> <h2 id="what-happens-inside-the-tuning-step">What happens inside the Tuning step?</h2> <p>Let’s now dig deeper into the <strong>pipeline step 2</strong> that iteratively tries and cross-validates multiple hyperparameter combinations in parallel and in sequence. The solution is represented in the following diagram:</p> <div class="row mt-3"> <div class="col-sm mt-3 mt-md-0"> <figure> <picture> <source class="responsive-img-srcset" srcset="/assets/img/hpo-480.webp 480w,/assets/img/hpo-800.webp 800w,/assets/img/hpo-1400.webp 1400w," type="image/webp" sizes="95vw"/> <img src="/assets/img/hpo.png" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"/> </picture> </figure> </div> </div> <div class="caption"> Architecture diagram of the hyperparameter tuning with cross-validation step. </div> <p>The solution relies on SageMaker Automatic Model Tuning to create and orchestrate the training jobs that test multiple hyperparameter combinations. The Automatic Model Tuning job can be launched using the HyperparameterTuner available in the <a href="https://sagemaker.readthedocs.io/en/stable/">SageMaker Python SDK</a>. It creates $ M \times N $ hyperparameter tuning training jobs, $ M $ of which are run in parallel over $ N $ sequential rounds that progressively search for the best hyperparameters. Each of these jobs launches and monitors a set of $ K $ cross-validation jobs. At each tuning round, $ M \times K $ instances in a Warm Pool are <strong>retained for the next round</strong>. In the subsequent rounds there is no instance startup time.</p> <p>SageMaker’s <code class="language-plaintext highlighter-rouge">HyperparameterTuner</code> already makes use of Warm Pools as announced on the <a href="https://aws.amazon.com/about-aws/whats-new/2022/08/amazon-sagemaker-automatic-model-tuning-reuses-sagemaker-training-instances-reduce-start-up-overheads/">AWS News Blog</a>. However, the cross-validation training jobs that are created in each tuning job – that cross-validate a specific combination of hyperparameters – have to be <strong>manually created and monitored, and the provisioned instances are not kept in a Warm Pool</strong>. Each hyperparameter tuning training job will only finish when all the underlying cross-validation training jobs have completed.</p> <p>To bring the architecture above to life and enable Warm Pools for <strong>all</strong> training jobs, we need to create three main scripts: <code class="language-plaintext highlighter-rouge">pipeline.py</code>, <code class="language-plaintext highlighter-rouge">cross_validation.py</code>, and <code class="language-plaintext highlighter-rouge">training.py</code>:</p> <ul> <li><strong><code class="language-plaintext highlighter-rouge">pipeline.py</code> script</strong> –– Defines the SageMaker Pipeline steps described in Section <a href="#end-to-end-sagemaker-pipeline">End-to-End SageMaker Pipeline</a>, which includes SageMaker’s <code class="language-plaintext highlighter-rouge">HyperparameterTuner</code>:</li> </ul> <figure class="highlight"><pre><code class="language-python" data-lang="python">  <span class="c1">#pipeline.py script
+</span>  <span class="bp">...</span>
+  <span class="c1"># Steps 2 to 5
+</span>
+  <span class="n">tuner</span> <span class="o">=</span> <span class="nc">HyperparameterTuner</span><span class="p">(</span>
+      <span class="n">estimator</span><span class="o">=</span><span class="n">estimator</span><span class="p">,</span>
+      <span class="n">metric_definitions</span><span class="o">=</span><span class="p">[</span>
+          <span class="p">{</span>
+            <span class="sh">"</span><span class="s">Name</span><span class="sh">"</span><span class="p">:</span> <span class="sh">"</span><span class="s">training:score</span><span class="sh">"</span><span class="p">,</span>
+            <span class="sh">"</span><span class="s">Regex</span><span class="sh">"</span><span class="p">:</span> <span class="sh">"</span><span class="s">average model training score:(.*?);</span><span class="sh">"</span>
+          <span class="p">},</span>
+          <span class="p">{</span>
+            <span class="sh">"</span><span class="s">Name</span><span class="sh">"</span><span class="p">:</span> <span class="sh">"</span><span class="s">validation:score</span><span class="sh">"</span><span class="p">,</span>
+            <span class="sh">"</span><span class="s">Regex</span><span class="sh">"</span><span class="p">:</span> <span class="sh">"</span><span class="s">average model validation score:(.*?);</span><span class="sh">"</span>
+          <span class="p">}</span>
+      <span class="p">],</span>
+      <span class="n">objective_metric_name</span><span class="o">=</span><span class="sh">"</span><span class="s">validation:score</span><span class="sh">"</span><span class="p">,</span>
+      <span class="n">strategy</span><span class="o">=</span><span class="sh">"</span><span class="s">Bayesian</span><span class="sh">"</span><span class="p">,</span>
+      <span class="n">max_jobs</span><span class="o">=</span><span class="n">max_jobs</span><span class="p">,</span> <span class="c1"># M x N
+</span>      <span class="n">max_parallel_jobs</span><span class="o">=</span><span class="n">max_parallel_jobs</span> <span class="c1"># M
+</span>  <span class="p">)</span>
 
--  HoganJsUtils.prototype._getTemplate = function(templateKey, config) {
-+  HoganJsUtils.prototype._getTemplate = function(templateKey) {
-     var template;
+  <span class="c1"># Step 2 - Hyperparameter tuning With cross-validation step
+</span>  <span class="n">step_tune</span> <span class="o">=</span> <span class="nc">TuningStep</span><span class="p">(</span>
+      <span class="n">name</span><span class="o">=</span><span class="sh">"</span><span class="s">tuning-step</span><span class="sh">"</span><span class="p">,</span>
+      <span class="n">step_args</span><span class="o">=</span><span class="n">tuner</span><span class="p">.</span><span class="nf">fit</span><span class="p">({</span>
+          <span class="sh">"</span><span class="s">train</span><span class="sh">"</span><span class="p">:</span> <span class="sh">"</span><span class="s">&lt;s3-path-to-training-folds&gt;</span><span class="sh">"</span><span class="p">,</span>
+          <span class="sh">"</span><span class="s">validation</span><span class="sh">"</span><span class="p">:</span> <span class="sh">"</span><span class="s">&lt;s3-path-to-validation-folds&gt;</span><span class="sh">"</span>
+      <span class="p">})</span>
+  <span class="p">)</span>
 
--    if (!config.noCache) {
-+    if (!this.config.noCache) {
-       template = this._readFromCache(templateKey);
-     }
+  <span class="c1"># Step 3 - Optimal hyperparameter retrieval step
+</span>  <span class="n">step_lambda</span> <span class="o">=</span> <span class="nc">LambdaStep</span><span class="p">(</span>
+      <span class="n">name</span><span class="o">=</span><span class="sh">"</span><span class="s">get-optimal-hyperparameters-step</span><span class="sh">"</span><span class="p">,</span>
+      <span class="n">lambda_func</span><span class="o">=</span><span class="n">lambda_get_optimal_hyperparameters</span><span class="p">,</span>
+      <span class="n">inputs</span><span class="o">=</span><span class="p">{</span>
+          <span class="sh">"</span><span class="s">best_training_job_name</span><span class="sh">"</span><span class="p">:</span> <span class="n">step_tune</span><span class="p">.</span><span class="n">properties</span><span class="p">.</span><span class="n">BestTrainingJob</span><span class="p">.</span><span class="n">TrainingJobName</span><span class="p">,</span>
+      <span class="p">},</span>
+      <span class="n">outputs</span><span class="o">=</span><span class="p">[</span>
+          <span class="nc">LambdaOutput</span><span class="p">(</span><span class="n">output_name</span><span class="o">=</span><span class="sh">"</span><span class="s">hyperparameter_a</span><span class="sh">"</span><span class="p">),</span>
+          <span class="nc">LambdaOutput</span><span class="p">(</span><span class="n">output_name</span><span class="o">=</span><span class="sh">"</span><span class="s">hyperparameter_b</span><span class="sh">"</span><span class="p">),</span>
+          <span class="nc">LambdaOutput</span><span class="p">(</span><span class="n">output_name</span><span class="o">=</span><span class="sh">"</span><span class="s">hyperparameter_c</span><span class="sh">"</span><span class="p">)</span>
+      <span class="p">]</span>
+  <span class="p">)</span>
 
-@@ -53,6 +53,7 @@
+  <span class="c1"># Step 4 - Final training step
+</span>  <span class="n">step_train</span> <span class="o">=</span> <span class="nc">TrainingStep</span><span class="p">(</span>
+      <span class="n">name</span><span class="o">=</span><span class="sh">"</span><span class="s">final-training-step</span><span class="sh">"</span><span class="p">,</span>
+      <span class="n">step_args</span><span class="o">=</span><span class="n">estimator</span><span class="p">.</span><span class="nf">fit</span><span class="p">({</span><span class="sh">"</span><span class="s">train</span><span class="sh">"</span><span class="p">:</span> <span class="sh">"</span><span class="s">&lt;s3-path-to-full-training-set&gt;</span><span class="sh">"</span><span class="p">})</span>
+  <span class="p">)</span>
 
-     try {
-       if (fs.readFileSync) {
-+        var templatesPath = path.resolve(__dirname, 'templates');
-         var templatePath = path.join(templatesPath, templateKey);
-         var templateContent = fs.readFileSync(templatePath + '.mustache', 'utf8');
-         template = hogan.compile(templateContent);
-@@ -66,12 +67,16 @@
-   };
+  <span class="n">model</span> <span class="o">=</span> <span class="nc">Model</span><span class="p">(</span>
+      <span class="n">model_data</span><span class="o">=</span><span class="n">step_train</span><span class="p">.</span><span class="n">properties</span><span class="p">.</span><span class="n">ModelArtifacts</span><span class="p">.</span><span class="n">S3ModelArtifacts</span><span class="p">,</span>
+      <span class="bp">...</span>
+  <span class="p">)</span>
 
-   HoganJsUtils.prototype._readFromCache = function(templateKey) {
--    return hoganTemplates[templateKey];
-+    return extraTemplates[templateKey] || hoganTemplates[templateKey];
-   };
+  <span class="c1"># Step 5 - Model registration step
+</span>  <span class="n">step_model_registration</span> <span class="o">=</span> <span class="nc">ModelStep</span><span class="p">(</span>
+      <span class="n">name</span><span class="o">=</span><span class="sh">"</span><span class="s">model-registration-step</span><span class="sh">"</span><span class="p">,</span>
+      <span class="n">step_args</span><span class="o">=</span><span class="n">model</span><span class="p">.</span><span class="nf">register</span><span class="p">(.)</span>
+  <span class="p">)</span></code></pre></figure> <ul> <li><strong><code class="language-plaintext highlighter-rouge">cross_validation.py</code> script</strong> –– Serves as entry point of SageMaker’s <code class="language-plaintext highlighter-rouge">HyperparameterTuner</code>. It launches multiple cross-validation training jobs. It is inside this script that the <code class="language-plaintext highlighter-rouge">keep_alive_period_in_seconds</code> parameter has to be specified, when calling the SageMaker Training Job API. The script computes and logs the average validation score across all validation folds. Logging the value enables easy reading of that metric using Regex by the <code class="language-plaintext highlighter-rouge">HyperparameterTuner</code> (as in the code snippet above). This metric is going to be tagged to each combination of hyperparameters.</li> </ul> <blockquote> <p><strong>Tip:</strong> Add a small delay, i.e., a few seconds, between the calls to the SageMaker APIs that create and monitor the training jobs to prevent the “Rate Exceeded” error, as in the example:</p> </blockquote> <figure class="highlight"><pre><code class="language-python" data-lang="python">  <span class="c1">#cross_validation.py script
+</span>
+  <span class="kn">import</span> <span class="n">time</span>
+  <span class="bp">...</span>
 
-   HoganJsUtils.prototype._templateKey = function(namespace, view) {
-     return namespace + '-' + view;
-   };
+  <span class="n">training_jobs</span> <span class="o">=</span> <span class="p">[]</span>
+  <span class="k">for</span> <span class="n">fold_index</span> <span class="ow">in</span> <span class="nf">range</span><span class="p">(</span><span class="n">number_of_folds</span><span class="p">):</span>
 
--  module.exports.HoganJsUtils = new HoganJsUtils();
-+  HoganJsUtils.prototype.compile = function(templateStr) {
-+    return hogan.compile(templateStr);
-+  };
-+
-+  module.exports.HoganJsUtils = HoganJsUtils;
- })();
-diff --git a/src/html-printer.js b/src/html-printer.js
-index 585d5b66..13f83047 100644
---- a/src/html-printer.js
-+++ b/src/html-printer.js
-@@ -8,6 +8,7 @@
- (function() {
-   var LineByLinePrinter = require('./line-by-line-printer.js').LineByLinePrinter;
-   var SideBySidePrinter = require('./side-by-side-printer.js').SideBySidePrinter;
-+  var FileListPrinter = require('./file-list-printer.js').FileListPrinter;
+      <span class="c1"># Create cross-validation training jobs (one per fold)
+</span>      <span class="n">job</span> <span class="o">=</span> <span class="nf">train_model</span><span class="p">(</span>
+          <span class="n">training_data</span><span class="o">=</span><span class="sh">"</span><span class="s">&lt;training-data-s3-path&gt;</span><span class="sh">"</span>
+          <span class="n">validation_data</span><span class="o">=</span><span class="sh">"</span><span class="s">&lt;validation-data-s3-path&gt;</span><span class="sh">"</span>
+          <span class="n">fold_index</span><span class="o">=</span><span class="n">fold_index</span><span class="p">,</span>
+          <span class="n">hyperparameters</span><span class="o">=</span><span class="p">{</span>
+              <span class="sh">"</span><span class="s">hyperparameter_a</span><span class="sh">"</span><span class="p">:</span> <span class="sh">"</span><span class="s">&lt;value-of-hyperparameter-a&gt;</span><span class="sh">"</span><span class="p">,</span>
+              <span class="sh">"</span><span class="s">hyperparameter_b</span><span class="sh">"</span><span class="p">:</span> <span class="sh">"</span><span class="s">&lt;value-of-hyperparameter-b&gt;</span><span class="sh">"</span><span class="p">,</span>
+              <span class="sh">"</span><span class="s">hyperparameter_c</span><span class="sh">"</span><span class="p">:</span> <span class="sh">"</span><span class="s">&lt;value-of-hyperparameter-c&gt;</span><span class="sh">"</span>
+      <span class="p">})</span>
+      <span class="n">training_jobs</span><span class="p">.</span><span class="nf">append</span><span class="p">(</span><span class="n">job</span><span class="p">)</span>
 
-   function HtmlPrinter() {
-   }
-@@ -22,5 +23,10 @@
-     return sideBySidePrinter.generateSideBySideJsonHtml(diffFiles);
-   };
-
-+  HtmlPrinter.prototype.generateFileListSummary = function(diffJson, config) {
-+    var fileListPrinter = new FileListPrinter(config);
-+    return fileListPrinter.generateFileList(diffJson);
-+  };
-+
-   module.exports.HtmlPrinter = new HtmlPrinter();
- })();
-diff --git a/src/line-by-line-printer.js b/src/line-by-line-printer.js
-index b07eb53c..d230bedd 100644
---- a/src/line-by-line-printer.js
-+++ b/src/line-by-line-printer.js
-@@ -11,7 +11,8 @@
-   var utils = require('./utils.js').Utils;
-   var Rematch = require('./rematch.js').Rematch;
-
--  var hoganUtils = require('./hoganjs-utils.js').HoganJsUtils;
-+  var hoganUtils;
-+
-   var genericTemplatesPath = 'generic';
-   var baseTemplatesPath = 'line-by-line';
-   var iconsBaseTemplatesPath = 'icon';
-@@ -19,6 +20,9 @@
-
-   function LineByLinePrinter(config) {
-     this.config = config;
-+
-+    var HoganJsUtils = require('./hoganjs-utils.js').HoganJsUtils;
-+    hoganUtils = new HoganJsUtils(config);
-   }
-
-   LineByLinePrinter.prototype.makeFileDiffHtml = function(file, diffs) {
-diff --git a/src/side-by-side-printer.js b/src/side-by-side-printer.js
-index bbf1dc8d..5e3033b3 100644
---- a/src/side-by-side-printer.js
-+++ b/src/side-by-side-printer.js
-@@ -11,7 +11,8 @@
-   var utils = require('./utils.js').Utils;
-   var Rematch = require('./rematch.js').Rematch;
-
--  var hoganUtils = require('./hoganjs-utils.js').HoganJsUtils;
-+  var hoganUtils;
-+
-   var genericTemplatesPath = 'generic';
-   var baseTemplatesPath = 'side-by-side';
-   var iconsBaseTemplatesPath = 'icon';
-@@ -26,6 +27,9 @@
-
-   function SideBySidePrinter(config) {
-     this.config = config;
-+
-+    var HoganJsUtils = require('./hoganjs-utils.js').HoganJsUtils;
-+    hoganUtils = new HoganJsUtils(config);
-   }
-
-   SideBySidePrinter.prototype.makeDiffHtml = function(file, diffs) {
-diff --git a/test/file-list-printer-tests.js b/test/file-list-printer-tests.js
-index a502a46f..60ea3208 100644
---- a/test/file-list-printer-tests.js
-+++ b/test/file-list-printer-tests.js
-@@ -1,6 +1,6 @@
- var assert = require('assert');
-
--var fileListPrinter = require('../src/file-list-printer.js').FileListPrinter;
-+var fileListPrinter = new (require('../src/file-list-printer.js').FileListPrinter)();
-
- describe('FileListPrinter', function() {
-   describe('generateFileList', function() {
-diff --git a/test/hogan-cache-tests.js b/test/hogan-cache-tests.js
-index 190bf6f8..3bb754ac 100644
---- a/test/hogan-cache-tests.js
-+++ b/test/hogan-cache-tests.js
-@@ -1,6 +1,6 @@
- var assert = require('assert');
-
--var HoganJsUtils = require('../src/hoganjs-utils.js').HoganJsUtils;
-+var HoganJsUtils = new (require('../src/hoganjs-utils.js').HoganJsUtils)();
- var diffParser = require('../src/diff-parser.js').DiffParser;
-
- describe('HoganJsUtils', function() {
-@@ -21,16 +21,28 @@ describe('HoganJsUtils', function() {
-       });
-       assert.equal(emptyDiffHtml, result);
-     });
-+
-     it('should render view without cache', function() {
-       var result = HoganJsUtils.render('generic', 'empty-diff', {
-         contentClass: 'd2h-code-line',
-         diffParser: diffParser
-       }, {noCache: true});
--      assert.equal(emptyDiffHtml + '\n', result);
-+      assert.equal(emptyDiffHtml, result);
-     });
-+
-     it('should return null if template is missing', function() {
--      var result = HoganJsUtils.render('generic', 'missing-template', {}, {noCache: true});
-+      var hoganUtils = new (require('../src/hoganjs-utils.js').HoganJsUtils)({noCache: true});
-+      var result = hoganUtils.render('generic', 'missing-template', {});
-       assert.equal(null, result);
-     });
-+
-+    it('should allow templates to be overridden', function() {
-+      var emptyDiffTemplate = HoganJsUtils.compile('&lt;p&gt;&lt;/p&gt;');
-+
-+      var config = {templates: {'generic-empty-diff': emptyDiffTemplate}};
-+      var hoganUtils = new (require('../src/hoganjs-utils.js').HoganJsUtils)(config);
-+      var result = hoganUtils.render('generic', 'empty-diff', {myName: 'Rodrigo Fernandes'});
-+      assert.equal('&lt;p&gt;Rodrigo Fernandes&lt;/p&gt;', result);
-+    });
-   });
- });
-diff --git a/test/line-by-line-tests.js b/test/line-by-line-tests.js
-index 1cd92073..8869b3df 100644
---- a/test/line-by-line-tests.js
-+++ b/test/line-by-line-tests.js
-@@ -14,7 +14,7 @@ describe('LineByLinePrinter', function() {
-         '            File without changes\n' +
-         '        &lt;/div&gt;\n' +
-         '    &lt;/td&gt;\n' +
--        '&lt;/tr&gt;\n';
-+        '&lt;/tr&gt;';
-
-       assert.equal(expected, fileHtml);
-     });
-@@ -422,7 +422,6 @@ describe('LineByLinePrinter', function() {
-         '        &lt;/div&gt;\n' +
-         '    &lt;/td&gt;\n' +
-         '&lt;/tr&gt;\n' +
--        '\n' +
-         '                &lt;/tbody&gt;\n' +
-         '            &lt;/table&gt;\n' +
-         '        &lt;/div&gt;\n' +
-diff --git a/test/side-by-side-printer-tests.js b/test/side-by-side-printer-tests.js
-index 76625f8e..771daaa5 100644
---- a/test/side-by-side-printer-tests.js
-+++ b/test/side-by-side-printer-tests.js
-@@ -14,7 +14,7 @@ describe('SideBySidePrinter', function() {
-         '            File without changes\n' +
-         '        &lt;/div&gt;\n' +
-         '    &lt;/td&gt;\n' +
--        '&lt;/tr&gt;\n';
-+        '&lt;/tr&gt;';
-
-       assert.equal(expectedRight, fileHtml.right);
-       assert.equal(expectedLeft, fileHtml.left);
-@@ -324,7 +324,6 @@ describe('SideBySidePrinter', function() {
-         '        &lt;/div&gt;\n' +
-         '    &lt;/td&gt;\n' +
-         '&lt;/tr&gt;\n' +
--        '\n' +
-         '                    &lt;/tbody&gt;\n' +
-         '                &lt;/table&gt;\n' +
-         '            &lt;/div&gt;\n' +
-
-From f3cadb96677d0eb82fc2752dc3ffbf35ca9b5bdb Mon Sep 17 00:00:00 2001
-From: Rodrigo Fernandes &lt;rtfrodrigo@gmail.com&gt;
-Date: Sat, 15 Oct 2016 13:21:22 +0100
-Subject: [PATCH 2/2] Allow uncompiled templates
-
----
- README.md                 |  3 +++
- src/hoganjs-utils.js      |  7 +++++++
- test/hogan-cache-tests.js | 24 +++++++++++++++++++++++-
- 3 files changed, 33 insertions(+), 1 deletion(-)
-
-diff --git a/README.md b/README.md
-index 132c8a28..46909f25 100644
---- a/README.md
-+++ b/README.md
-@@ -98,6 +98,9 @@ The HTML output accepts a Javascript object with configuration. Possible options
-   - `synchronisedScroll`: scroll both panes in side-by-side mode: `true` or `false`, default is `false`
-   - `matchWordsThreshold`: similarity threshold for word matching, default is 0.25
-   - `matchingMaxComparisons`: perform at most this much comparisons for line matching a block of changes, default is `2500`
-+  - `templates`: object with previously compiled templates to replace parts of the html
-+  - `rawTemplates`: object with raw not compiled templates to replace parts of the html
-+  &gt; For more information regarding the possible templates look into [src/templates](https://github.com/rtfpessoa/diff2html/tree/master/src/templates)
-
- ## Diff2HtmlUI Helper
-
-diff --git a/src/hoganjs-utils.js b/src/hoganjs-utils.js
-index 0dda08d7..b2e9c275 100644
---- a/src/hoganjs-utils.js
-+++ b/src/hoganjs-utils.js
-@@ -17,6 +17,13 @@
-   function HoganJsUtils(configuration) {
-     this.config = configuration || {};
-     extraTemplates = this.config.templates || {};
-+
-+    var rawTemplates = this.config.rawTemplates || {};
-+    for (var templateName in rawTemplates) {
-+      if (rawTemplates.hasOwnProperty(templateName)) {
-+        if (!extraTemplates[templateName]) extraTemplates[templateName] = this.compile(rawTemplates[templateName]);
-+      }
-+    }
-   }
-
-   HoganJsUtils.prototype.render = function(namespace, view, params) {
-diff --git a/test/hogan-cache-tests.js b/test/hogan-cache-tests.js
-index 3bb754ac..a34839c0 100644
---- a/test/hogan-cache-tests.js
-+++ b/test/hogan-cache-tests.js
-@@ -36,7 +36,7 @@ describe('HoganJsUtils', function() {
-       assert.equal(null, result);
-     });
-
--    it('should allow templates to be overridden', function() {
-+    it('should allow templates to be overridden with compiled templates', function() {
-       var emptyDiffTemplate = HoganJsUtils.compile('&lt;p&gt;&lt;/p&gt;');
-
-       var config = {templates: {'generic-empty-diff': emptyDiffTemplate}};
-@@ -44,5 +44,27 @@ describe('HoganJsUtils', function() {
-       var result = hoganUtils.render('generic', 'empty-diff', {myName: 'Rodrigo Fernandes'});
-       assert.equal('&lt;p&gt;Rodrigo Fernandes&lt;/p&gt;', result);
-     });
-+
-+    it('should allow templates to be overridden with uncompiled templates', function() {
-+      var emptyDiffTemplate = '&lt;p&gt;&lt;/p&gt;';
-+
-+      var config = {rawTemplates: {'generic-empty-diff': emptyDiffTemplate}};
-+      var hoganUtils = new (require('../src/hoganjs-utils.js').HoganJsUtils)(config);
-+      var result = hoganUtils.render('generic', 'empty-diff', {myName: 'Rodrigo Fernandes'});
-+      assert.equal('&lt;p&gt;Rodrigo Fernandes&lt;/p&gt;', result);
-+    });
-+
-+    it('should allow templates to be overridden giving priority to compiled templates', function() {
-+      var emptyDiffTemplate = HoganJsUtils.compile('&lt;p&gt;&lt;/p&gt;');
-+      var emptyDiffTemplateUncompiled = '&lt;p&gt;Not used!&lt;/p&gt;';
-+
-+      var config = {
-+        templates: {'generic-empty-diff': emptyDiffTemplate},
-+        rawTemplates: {'generic-empty-diff': emptyDiffTemplateUncompiled}
-+      };
-+      var hoganUtils = new (require('../src/hoganjs-utils.js').HoganJsUtils)(config);
-+      var result = hoganUtils.render('generic', 'empty-diff', {myName: 'Rodrigo Fernandes'});
-+      assert.equal('&lt;p&gt;Rodrigo Fernandes&lt;/p&gt;', result);
-+    });
-   });
- });
-</code></pre>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="code"/><summary type="html"><![CDATA[this is how you can display code diffs]]></summary></entry><entry><title type="html">a post with advanced image components</title><link href="https://alshedivat.github.io/al-folio/blog/2024/advanced-images/" rel="alternate" type="text/html" title="a post with advanced image components"/><published>2024-01-27T11:46:00+00:00</published><updated>2024-01-27T11:46:00+00:00</updated><id>https://alshedivat.github.io/al-folio/blog/2024/advanced-images</id><content type="html" xml:base="https://alshedivat.github.io/al-folio/blog/2024/advanced-images/"><![CDATA[<p>This is an example post with advanced image components.</p> <h2 id="image-slider">Image Slider</h2> <p>This is a simple image slider. It uses the <a href="https://swiperjs.com/">Swiper</a> library. Check the <a href="https://swiperjs.com/demos">examples page</a> for more information of what you can achieve with it.</p> <swiper-container keyboard="true" navigation="true" pagination="true" pagination-clickable="true" pagination-dynamic-bullets="true" rewind="true"> <swiper-slide> <figure> <picture> <source class="responsive-img-srcset" srcset="/al-folio/assets/img/9-480.webp 480w,/al-folio/assets/img/9-800.webp 800w,/al-folio/assets/img/9-1400.webp 1400w," type="image/webp" sizes="95vw"/> <img src="/al-folio/assets/img/9.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"/> </picture> </figure> </swiper-slide> <swiper-slide> <figure> <picture> <source class="responsive-img-srcset" srcset="/al-folio/assets/img/7-480.webp 480w,/al-folio/assets/img/7-800.webp 800w,/al-folio/assets/img/7-1400.webp 1400w," type="image/webp" sizes="95vw"/> <img src="/al-folio/assets/img/7.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"/> </picture> </figure> </swiper-slide> <swiper-slide> <figure> <picture> <source class="responsive-img-srcset" srcset="/al-folio/assets/img/8-480.webp 480w,/al-folio/assets/img/8-800.webp 800w,/al-folio/assets/img/8-1400.webp 1400w," type="image/webp" sizes="95vw"/> <img src="/al-folio/assets/img/8.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"/> </picture> </figure> </swiper-slide> <swiper-slide> <figure> <picture> <source class="responsive-img-srcset" srcset="/al-folio/assets/img/10-480.webp 480w,/al-folio/assets/img/10-800.webp 800w,/al-folio/assets/img/10-1400.webp 1400w," type="image/webp" sizes="95vw"/> <img src="/al-folio/assets/img/10.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"/> </picture> </figure> </swiper-slide> <swiper-slide> <figure> <picture> <source class="responsive-img-srcset" srcset="/al-folio/assets/img/12-480.webp 480w,/al-folio/assets/img/12-800.webp 800w,/al-folio/assets/img/12-1400.webp 1400w," type="image/webp" sizes="95vw"/> <img src="/al-folio/assets/img/12.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"/> </picture> </figure> </swiper-slide> </swiper-container> <h2 id="image-comparison-slider">Image Comparison Slider</h2> <p>This is a simple image comparison slider. It uses the <a href="https://img-comparison-slider.sneas.io/">img-comparison-slider</a> library. Check the <a href="https://img-comparison-slider.sneas.io/examples.html">examples page</a> for more information of what you can achieve with it.</p> <img-comparison-slider> <figure slot="first"> <picture> <source class="responsive-img-srcset" srcset="/al-folio/assets/img/prof_pic-480.webp 480w,/al-folio/assets/img/prof_pic-800.webp 800w,/al-folio/assets/img/prof_pic-1400.webp 1400w," type="image/webp" sizes="95vw"/> <img src="/al-folio/assets/img/prof_pic.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"/> </picture> </figure> <figure slot="second"> <picture> <source class="responsive-img-srcset" srcset="/al-folio/assets/img/prof_pic_color-480.webp 480w,/al-folio/assets/img/prof_pic_color-800.webp 800w,/al-folio/assets/img/prof_pic_color-1400.webp 1400w," type="image/webp" sizes="95vw"/> <img src="/al-folio/assets/img/prof_pic_color.png" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"/> </picture> </figure> </img-comparison-slider>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="images"/><summary type="html"><![CDATA[this is what advanced image components could look like]]></summary></entry><entry><title type="html">a post with vega lite</title><link href="https://alshedivat.github.io/al-folio/blog/2024/vega-lite/" rel="alternate" type="text/html" title="a post with vega lite"/><published>2024-01-27T00:20:00+00:00</published><updated>2024-04-14T04:30:00+00:00</updated><id>https://alshedivat.github.io/al-folio/blog/2024/vega-lite</id><content type="html" xml:base="https://alshedivat.github.io/al-folio/blog/2024/vega-lite/"><![CDATA[<p>This is an example post with some <a href="https://vega.github.io/vega-lite/">vega lite</a> code.</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">vega_lite
-</span><span class="sb">{
-  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "description": "A dot plot showing each movie in the database, and the difference from the average movie rating. The display is sorted by year to visualize everything in sequential order. The graph is for all Movies before 2019.",
-  "data": {
-    "url": "https://raw.githubusercontent.com/vega/vega/main/docs/data/movies.json"
-  },
-  "transform": [
-    {"filter": "datum['IMDB Rating'] != null"},
-    {"filter": {"timeUnit": "year", "field": "Release Date", "range": [null, 2019]}},
-    {
-      "joinaggregate": [{
-        "op": "mean",
-        "field": "IMDB Rating",
-        "as": "AverageRating"
-      }]
-    },
-    {
-      "calculate": "datum['IMDB Rating'] - datum.AverageRating",
-      "as": "RatingDelta"
-    }
-  ],
-  "mark": "point",
-  "encoding": {
-    "x": {
-      "field": "Release Date",
-      "type": "temporal"
-    },
-    "y": {
-      "field": "RatingDelta",
-      "type": "quantitative",
-      "title": "Rating Delta"
-    },
-    "color": {
-      "field": "RatingDelta",
-      "type": "quantitative",
-      "scale": {"domainMid": 0},
-      "title": "Rating Delta"
-    }
-  }
-}</span>
-<span class="p">```</span>
-</code></pre></div></div> <p>Which generates:</p> <pre><code class="language-vega_lite">{
-  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "description": "A dot plot showing each movie in the database, and the difference from the average movie rating. The display is sorted by year to visualize everything in sequential order. The graph is for all Movies before 2019.",
-  "data": {
-    "url": "https://raw.githubusercontent.com/vega/vega/main/docs/data/movies.json"
-  },
-  "transform": [
-    {"filter": "datum['IMDB Rating'] != null"},
-    {"filter": {"timeUnit": "year", "field": "Release Date", "range": [null, 2019]}},
-    {
-      "joinaggregate": [{
-        "op": "mean",
-        "field": "IMDB Rating",
-        "as": "AverageRating"
-      }]
-    },
-    {
-      "calculate": "datum['IMDB Rating'] - datum.AverageRating",
-      "as": "RatingDelta"
-    }
-  ],
-  "mark": "point",
-  "encoding": {
-    "x": {
-      "field": "Release Date",
-      "type": "temporal"
-    },
-    "y": {
-      "field": "RatingDelta",
-      "type": "quantitative",
-      "title": "Rating Delta"
-    },
-    "color": {
-      "field": "RatingDelta",
-      "type": "quantitative",
-      "scale": {"domainMid": 0},
-      "title": "Rating Delta"
-    }
-  }
-}
-</code></pre> <p>This plot supports both light and dark themes.</p>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="charts"/><summary type="html"><![CDATA[this is what included vega lite code could look like]]></summary></entry></feed>
+      <span class="c1"># Add delay to prevent Rate Exceeded error. 
+</span>      <span class="n">time</span><span class="p">.</span><span class="nf">sleep</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span>
+  <span class="bp">...</span></code></pre></figure> <blockquote> <p><strong>Tip:</strong> Disable the <a href="https://docs.aws.amazon.com/sagemaker/latest/dg/debugger-turn-off.html">debugger profiler</a> when launching your SageMaker training jobs. These profiler instances will be as many as the training instances and can make the overall cost increase significantly. You can do so by simply setting <code class="language-plaintext highlighter-rouge">disable_profiler=True</code> in the Estimator definition.</p> </blockquote> <ul> <li><strong><code class="language-plaintext highlighter-rouge">training.py</code> script</strong> –– Trains a model on a given input training set. The hyperparameters being cross-validated are passed as arguments of this script.</li> </ul> <blockquote> <p><strong>Tip:</strong> Write a general-purpose <code class="language-plaintext highlighter-rouge">training.py</code> script and reuse it for training the model on cross-validation sets and for training the final model with the optimal hyperparameters on the full training set.</p> </blockquote> <p>To control each parallel cross-validation set of jobs, as well as to compute a final validation metric for each specific hyperparameter combination tested, there are several custom functions that have to be implemented inside the <code class="language-plaintext highlighter-rouge">cross_validation.py</code> script. <a href="https://github.com/aws-samples/sagemaker-cross-validation-pipeline">This example</a> provides good inspiration, even though it does not enable Warm Pools or Lambda.</p> <h3 id="how-many-jobs-are-created-in-total">How many jobs are created in total?</h3> <p>$ M \times N \times (K+1) $ jobs. Why?</p> <ul> <li>$ M \times N $ hyperparameter tuning training jobs – $ M $ in parallel and $ N $ in sequence – matches the number of hyperparameter combinations.</li> <li>$ K $ parallel cross-validation jobs per hyperparameter tuning training job + 1 (the hyperparameter tuning training job itself).</li> </ul> <p>If we have <strong>5</strong> validation folds, run <strong>4</strong> hyperparameter tuning training jobs in parallel and <strong>120</strong> in sequence, then the total <strong>number of jobs will be 2880</strong>.</p> <blockquote> <p><strong>Important:</strong> Make sure that you have all the required service quotas in place for the instance types that you are using. Check the AWS guides to understand how to set these quotas for both <a href="https://docs.aws.amazon.com/sagemaker/latest/dg/train-warm-pools.html#train-warm-pools-resource-limits">Warm Pools</a> and <a href="https://docs.aws.amazon.com/sagemaker/latest/dg/automatic-model-tuning-limits.html">Automatic Model Tuning</a>.</p> </blockquote> <h2 id="what-do-we-get-out-of-using-warm-pools">What do we get out of using Warm Pools?</h2> <p>Let’s say we want to run $ N=120 $ sequential training jobs and that the startup time of the instances is 3min and that training takes 2min to run (5min per job). This means that the total runtime is approximately:</p> <ul> <li><em>Without</em> Warm Pools: 5min x 120 jobs = <strong>10h</strong></li> <li><em>With</em> Warm Pools: 5min x 1 job + 2min x 119 jobs ≈ <strong>4h</strong></li> </ul> <p><strong>This means that with Warm Pools the process takes 60% less time!</strong></p> <h2 id="summary">Summary</h2> <p>In this article, I showed how we can leverage Warm Pools to significantly speed-up hyperparameter tuning with cross-validation in SageMaker Pipelines. Warm Pools are a great feature of SageMaker that not only enables more efficient production pipelines, but also faster iterations in experiments. At the moment, SageMaker Managed Warm Pools have been integrated in SageMaker Training, but not in SageMaker Processing.</p> <p><em>All images unless otherwise noted are by the author.</em></p>]]></content><author><name>João Pereira</name></author><category term="hyperparameter-tuning"/><category term="SageMaker"/><category term="AWS"/><summary type="html"><![CDATA[Using SageMaker Managed Warm Pools.]]></summary></entry><entry><title type="html">Introducing Solar Scan</title><link href="https://jpcpereira.github.io/blog/2019/solarscan/" rel="alternate" type="text/html" title="Introducing Solar Scan"/><published>2019-10-27T00:00:00+00:00</published><updated>2019-10-27T00:00:00+00:00</updated><id>https://jpcpereira.github.io/blog/2019/solarscan</id><content type="html" xml:base="https://jpcpereira.github.io/blog/2019/solarscan/"><![CDATA[<h2 id="introduction">Introduction</h2> <p>Solar energy has been growing rapidly in The Netherlands. However, its potential is still underexplored when compared to other renewable energy sources, and this fact makes it an interesting alternative to explore. Furthermore, solar is also easy to adopt at the residential level and is accessible to most of the population.</p> <blockquote> I'd put my money on the sun and solar energy. What a source of power! I hope we don't have to wait until oil and coal run out before we tackle that. -Thomas Edison </blockquote> <p>One key action for the promotion of residential solar photovoltaic (PV) energy is the assessment of the solar potential. Assessing solar potential allows identifying the best locations where solar panels can be installed. We introduce Solar Scan, a tool that will help in assessing the solar potential in The Netherlands. Solar Scan uses satellite imagery data and information extracted from the CBS database.</p> <div class="row mt-3"> <div class="col-sm mt-3 mt-md-0"> <figure> <picture> <source class="responsive-img-srcset" srcset="/assets/img/posts/solarscanpost/0-480.webp 480w,/assets/img/posts/solarscanpost/0-800.webp 800w,/assets/img/posts/solarscanpost/0-1400.webp 1400w," type="image/webp" sizes="95vw"/> <img src="/assets/img/posts/solarscanpost/0.png" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"/> </picture> </figure> </div> </div> <p>Solar Scan is composed of several modules that work seamlessly and process the data, including an AI engine and a spatial processing pipeline.</p> <div class="row mt-3"> <div class="col-sm mt-3 mt-md-0"> <figure> <picture> <source class="responsive-img-srcset" srcset="/assets/img/posts/solarscanpost/1-480.webp 480w,/assets/img/posts/solarscanpost/1-800.webp 800w,/assets/img/posts/solarscanpost/1-1400.webp 1400w," type="image/webp" sizes="95vw"/> <img src="/assets/img/posts/solarscanpost/1.png" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"/> </picture> </figure> </div> </div> <h2 id="ai-power">AI Power</h2> <p>Solar Scan is powered by an AI module whose output is used for solar potential assessment. This module uses a deep convolutional neural network (CNN) to segment the building’s rooftops from satellite images and estimates the useful area available for installing solar panels. The neural architecture applied for segmentation is U-Net, which achieves state-of-the-art performance in many complex image segmentation tasks. The model was trained in a supervised fashion on a dataset containing map tiles and the corresponding segmented images. We trained it from scratch on CoLab, using accelerated hardware (GPU), during 50 training epochs.</p> <div class="row mt-3"> <div class="col-sm mt-3 mt-md-0"> <figure> <picture> <source class="responsive-img-srcset" srcset="/assets/img/posts/solarscanpost/2-480.webp 480w,/assets/img/posts/solarscanpost/2-800.webp 800w,/assets/img/posts/solarscanpost/2-1400.webp 1400w," type="image/webp" sizes="95vw"/> <img src="/assets/img/posts/solarscanpost/2.png" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"/> </picture> </figure> </div> </div> <h2 id="spatial-processing-pipeline">Spatial Processing Pipeline</h2> <p>The CBS data extracted, and the rooftop segmentation output, are displayed on a map integrated in a web application.</p> <p>To do so, we developed a spatial processing pipeline that consisted of the following steps:</p> <ol> <li>Built a grid of polygons covering the area to be represented and associated them with their center coordinates.</li> <li>Stored the CBS information and the segmentation results in a spatial database.</li> <li>Assigned the spatial data in the database to the corresponding polygons.</li> <li>Set a Geographical Information System (GIS) engine to process the spatial data.</li> <li>Rendered the spatial data on an interactive map.</li> </ol> <div class="row mt-3"> <div class="col-sm mt-3 mt-md-0"> <figure> <picture> <source class="responsive-img-srcset" srcset="/assets/img/posts/solarscanpost/3-480.webp 480w,/assets/img/posts/solarscanpost/3-800.webp 800w,/assets/img/posts/solarscanpost/3-1400.webp 1400w," type="image/webp" sizes="95vw"/> <img src="/assets/img/posts/solarscanpost/3.png" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"/> </picture> </figure> </div> </div> <p>With this spatial data processing pipeline, we aim to have a platform in place to investigate and assess the solar potential in different geographical areas. For this purpose, we thought about developing two elements: an interactive map and a solar information summary associated with the viewed area on the map. We represent the CBS data extracted on the map. In addition, we use the rooftop’s segmentation as a basis to compute metrics that provide insights on the solar potential in the viewed area.</p> <p>The map includes multiple layers, showing the solar information aggregated in hexagon shapes. Each hexagon contains one or more neighborhoods. The information regards the number of solar panels installed, the power currently generated by solar panels, and a detailed view of the potential rooftops.</p> <div class="row mt-3"> <div class="col-sm mt-3 mt-md-0"> <figure> <picture> <source class="responsive-img-srcset" srcset="/assets/img/posts/solarscanpost/4-480.webp 480w,/assets/img/posts/solarscanpost/4-800.webp 800w,/assets/img/posts/solarscanpost/4-1400.webp 1400w," type="image/webp" sizes="95vw"/> <img src="/assets/img/posts/solarscanpost/4.png" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"/> </picture> </figure> </div> </div> <p>The CBS data extracted, and the rooftop segmentation output, are displayed on a map integrated in a web application.</p> <p>The segmentation of satellite images, performed using a deep learning model, allows us to estimate the rooftop area available, in square meters, for a given view area. Based on this estimation, we compute several solar metrics that provide valuable insights useful for solar potential assessment. Specifically, we compute the following solar metrics:</p> <ul> <li>Number of solar panels installed.</li> <li>Available area for installing solar panels.</li> <li>Potential energy generation.</li> <li>Money savings for one year of generation.</li> <li>Solar potential index.</li> </ul> <p>Solar Scan includes a representation of the rooftop’s segmentation on an interactive map, as well as the solar insights computed for the viewed area, shown on the right side.</p> <div class="row mt-3"> <div class="col-sm mt-3 mt-md-0"> <figure> <picture> <source class="responsive-img-srcset" srcset="/assets/img/posts/solarscanpost/5-480.webp 480w,/assets/img/posts/solarscanpost/5-800.webp 800w,/assets/img/posts/solarscanpost/5-1400.webp 1400w," type="image/webp" sizes="95vw"/> <img src="/assets/img/posts/solarscanpost/5.png" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"/> </picture> </figure> </div> </div> <p>We designed, implemented and deployed a solution that provides two benefits for our individual or professional target users. Solar Scan helps users to grasp the current situation on solar panels already installed across neighborhoods. In addition, they are able to investigate the solar energy potential in a specific neighborhood.</p> <p>Solar Scan includes a representation of the rooftop’s segmentation on an interactive map, as well as the solar insights computed for the viewed area, shown on the right side.</p> <p><strong>We wish you like Solar Scan as much as we do!</strong></p>]]></content><author><name>João Pereira</name></author><category term="AI"/><category term="solar-scan"/><summary type="html"><![CDATA[A solar potential assessment tool powered by AI.]]></summary></entry></feed>
