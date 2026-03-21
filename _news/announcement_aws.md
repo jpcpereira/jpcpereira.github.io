@@ -20,7 +20,7 @@ I joined the **Build on Generative AI** series to discuss about how to implement
 
 ## Learn More
 
-**Blog Post:** Read the detailed technical walkthrough on my [Blog article](blog/2023/hyperparameter-tuning/).
+**Blog Post:** Read the detailed technical walkthrough on my Blog.
 
 ## Announcement
 

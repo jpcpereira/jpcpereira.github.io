@@ -105,7 +105,7 @@ We will create a dummy dataset to demonstrate how to fine-tune MPT-7B. Since tra
 }
 {% endhighlight %}
 
-The `prompt` is the input given to the model (_e.g._, a question). The response is the output that the model is trained to predict (_e.g._, the answer to the question in the `prompt`). The raw prompt is often preprocessed to fit in a prompt template that helps the model to generate better outputs. Note that the model is trained for causal language modelling, so you can think of it as a "document completer". It is a good idea to design the prompt template in such a way that the model thinks that it is completing a document. Andrej Karpathy explains well this mechanism in his talk [State of GPT](youtu.be/bZQun8Y4L2A).
+The `prompt` is the input given to the model (_e.g._, a question). The response is the output that the model is trained to predict (_e.g._, the answer to the question in the `prompt`). The raw prompt is often preprocessed to fit in a prompt template that helps the model to generate better outputs. Note that the model is trained for causal language modelling, so you can think of it as a "document completer". It is a good idea to design the prompt template in such a way that the model thinks that it is completing a document. Andrej Karpathy explains well this mechanism in his talk [State of GPT](https://youtu.be/bZQun8Y4L2A?si=_8RcLNPJnBALl3I7).
 
 {% highlight python %}
 prompt_template = """Write a response that appropriately answers the question below.
@@ -166,7 +166,7 @@ write_jsonlines_to_s3(test_data, test_data_path)
 
 ## SageMaker Training job
 
-With the datasets available in S3, we will now create a training job in Amazon SageMaker. For that, we have to create an entry point script, modify the configuration file specifying the training settings, and define an HuggingFace estimator. We will (re-)use the training script from [LLM Foundry](https://github.com/mosaicml/llm-foundry) and [Composer](https://github.com/mosaicml/composer) library’s CLI launcher that sets up the distributed training environment. Both of these packages are maintained by [MosaicML](mosaicml.com), the company behind MPT-7B. The working folder should be structured like:
+With the datasets available in S3, we will now create a training job in Amazon SageMaker. For that, we have to create an entry point script, modify the configuration file specifying the training settings, and define an HuggingFace estimator. We will (re-)use the training script from [LLM Foundry](https://github.com/mosaicml/llm-foundry) and [Composer](https://github.com/mosaicml/composer) library’s CLI launcher that sets up the distributed training environment. Both of these packages are maintained by MosaicML, the company behind MPT-7B. The working folder should be structured like:
 
 {% highlight python %}
 └── fine-tune-mpt-7b-sagemaker/
