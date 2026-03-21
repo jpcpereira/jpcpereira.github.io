@@ -4,7 +4,7 @@ title: Introducing Solar Scan
 description: A solar potential assessment tool powered by AI.
 featured: false
 date: 2019-10-27
-tags: AI solar-scan
+tags: solar-scan
 
 authors:
   - name: João Pereira

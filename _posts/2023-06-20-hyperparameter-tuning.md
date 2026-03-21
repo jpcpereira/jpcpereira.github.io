@@ -4,7 +4,7 @@ title: Fast and Scalable Hyperparameter Tuning and Cross-validation in AWS SageM
 description: Using SageMaker Managed Warm Pools.
 date: 2023-03-03
 featured: true
-tags: hyperparameter-tuning SageMaker AWS
+tags: hyperparameter-tuning sagemaker aws
 giscus_comments: true
 thumbnail: assets/img/cover_photo_finetuning_article.jpg
 tikzjax: true

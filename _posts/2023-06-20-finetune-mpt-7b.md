@@ -3,7 +3,7 @@ layout: distill
 title: Fine-tune MPT-7B on Amazon SageMaker
 description: Learn how to prepare a dataset and create a training job to fine-tune MPT-7B on Amazon SageMaker.
 date: 2023-06-20
-tags: AI solar-scan
+tags: llm fine-tuning sagemaker
 featured: true
 giscus_comments: true
 thumbnail: assets/img/robot.jpg
