@@ -70,12 +70,7 @@ ninja.data = [{
             window.location.href = "/blog/2019/solarscan/";
           
         },
-      },{id: "books-the-godfather",
-          title: 'The Godfather',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
-            },},{id: "news-featured-on-aws-build-on-generative-ai-weekly-series",
+      },{id: "news-featured-on-aws-build-on-generative-ai-weekly-series",
           title: 'Featured on AWS Build on Generative AI weekly series',
           description: "",
           section: "News",handler: () => {
