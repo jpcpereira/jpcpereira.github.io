@@ -48,7 +48,6 @@ _styles: >
     text-align: center;
     font-size: 16px;
   }
-
 ---
 
 ## Introduction
@@ -136,4 +135,4 @@ We designed, implemented and deployed a solution that provides two benefits for 
 
 Solar Scan includes a representation of the rooftop's segmentation on an interactive map, as well as the solar insights computed for the viewed area, shown on the right side.
 
-**We wish you like Solar Scan as much as we do!** 
+**We wish you like Solar Scan as much as we do!**

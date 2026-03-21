@@ -5,7 +5,7 @@ title: Featured on AWS <i>Build on Generative AI</i> weekly series
 inline: false
 ---
 
-***
+---
 
 ## About This Episode
 
@@ -22,9 +22,8 @@ I joined the **Build on Generative AI** series to discuss about how to implement
 
 **Blog Post:** Read the detailed technical walkthrough on my [Blog article](blog/2023/hyperparameter-tuning/).
 
-
 ## Announcement
-<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7042529772224057344" height="859" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
 
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7042529772224057344" height="859" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
 
 <img src="/assets/img/twitch_pic.png" alt="Build on Generative AI announcement" style="width:100%">
