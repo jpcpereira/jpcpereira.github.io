@@ -79,7 +79,7 @@ description: > # Brief description (1-2 sentences)
   João's Pereira website.
 author: João Pereira
 keywords: machine learning
-url: https://www.joaopereira.ai
+url: https://www.jpcpereira.com
 lang: en
 ```
 

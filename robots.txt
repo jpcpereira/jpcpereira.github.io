@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://www.joaopereira.ai/sitemap.xml
+Sitemap: https://www.jpcpereira.com/sitemap.xml
