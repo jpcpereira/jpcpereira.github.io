@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2026-05-15'
+  last_updated: '2026-06-01'
 papers:
   WCiItYkAAAAJ:9yKSN-GCB0IC:
-    citations: 120
+    citations: 121
     title: Learning Representations from Healthcare Time Series Data for Unsupervised Anomaly Detection
     year: '2019'
   WCiItYkAAAAJ:IjCSPb-OGe4C:
@@ -22,6 +22,6 @@ papers:
     title: Probabilistic Demand Forecasting with Graph Neural Networks
     year: '2023'
   WCiItYkAAAAJ:d1gkVwhDpl0C:
-    citations: 13
+    citations: 12
     title: Unsupervised Anomaly Detection in Time Series Data Using Deep Learning
     year: '2018'
