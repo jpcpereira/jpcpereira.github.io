@@ -23,13 +23,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-projects",
-          title: "Projects",
-          description: "A growing collection of your cool projects.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/projects/";
-          },
         },{id: "nav-resume",
           title: "Resume",
           description: "",
@@ -80,56 +73,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/annoucement_ecml/";
-            },},{id: "news-recognized-with-the-global-superstar-award-at-adidas",
-          title: 'Recognized with the Global Superstar Award at adidas.',
+            },},{id: "news-received-the-global-superstar-award-at-adidas",
+          title: 'Received the Global Superstar Award at adidas.',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/annoucement_award/";
-            },},{id: "projects-money-laundering",
-          title: 'Money Laundering',
-          description: "Detection of suspicious cases of money laundering using a community-oriented approach.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/anti_money_laundering/";
-            },},{id: "projects-deepfake-detection",
-          title: 'DeepFake Detection',
-          description: "United Nations&#39; Hackathon",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/deepfake/";
-            },},{id: "projects-fiod-image-intelligence",
-          title: 'FIOD Image Intelligence',
-          description: "EngD final project with FIOD - Belastingdienst",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/fiod_image_intelligence/";
-            },},{id: "projects-occupancy-prediction",
-          title: 'Occupancy Prediction',
-          description: "In working spaces using neural network model.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/occupancy_prediction/";
-            },},{id: "projects-dust-particle-detection",
-          title: 'Dust Particle Detection',
-          description: "In chip-making machines using computer vision.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/particle_detection/";
-            },},{id: "projects-power-forecasting",
-          title: 'Power Forecasting',
-          description: "At MV/LV power substations.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/power_forecasting/";
-            },},{id: "projects-recommendation-system",
-          title: 'Recommendation System',
-          description: "Based on low-rank matrix factorization.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/recommendation_system/";
-            },},{id: "projects-solar-scan",
-          title: 'Solar Scan',
-          description: "Solar potential assessment tool.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/solar_scan/";
-            },},{id: "projects-supply-chain-optimization",
-          title: 'Supply Chain Optimization',
-          description: "Using process mining.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/supply_chain/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
