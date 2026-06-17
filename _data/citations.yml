@@ -1,12 +1,12 @@
 metadata:
-  last_updated: '2026-06-05'
+  last_updated: '2026-06-17'
 papers:
   WCiItYkAAAAJ:9yKSN-GCB0IC:
     citations: 121
     title: Learning Representations from Healthcare Time Series Data for Unsupervised Anomaly Detection
     year: '2019'
   WCiItYkAAAAJ:IjCSPb-OGe4C:
-    citations: 227
+    citations: 228
     title: Unsupervised Anomaly Detection in Energy Time Series Data Using Variational Recurrent Autoencoders with Attention
     year: '2018'
   WCiItYkAAAAJ:Tyk-4Ss8FVUC:
@@ -18,7 +18,7 @@ papers:
     title: Unsupervised Representation Learning and Anomaly Detection in ECG Sequences
     year: '2019'
   WCiItYkAAAAJ:W7OEmFMy1HYC:
-    citations: 11
+    citations: 12
     title: Probabilistic Demand Forecasting with Graph Neural Networks
     year: '2023'
   WCiItYkAAAAJ:d1gkVwhDpl0C:
