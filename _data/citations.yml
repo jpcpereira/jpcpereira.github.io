@@ -1,12 +1,12 @@
 metadata:
-  last_updated: '2026-07-08'
+  last_updated: '2026-08-10'
 papers:
   WCiItYkAAAAJ:9yKSN-GCB0IC:
-    citations: 121
+    citations: 123
     title: Learning Representations from Healthcare Time Series Data for Unsupervised Anomaly Detection
     year: '2019'
   WCiItYkAAAAJ:IjCSPb-OGe4C:
-    citations: 229
+    citations: 227
     title: Unsupervised Anomaly Detection in Energy Time Series Data Using Variational Recurrent Autoencoders with Attention
     year: '2018'
   WCiItYkAAAAJ:Tyk-4Ss8FVUC:
@@ -14,14 +14,14 @@ papers:
     title: 'FIOD Image Intelligence: An Application for Large-Scale Object Detection and Analysis'
     year: '2021'
   WCiItYkAAAAJ:UeHWp8X0CEIC:
-    citations: 44
+    citations: 43
     title: Unsupervised Representation Learning and Anomaly Detection in ECG Sequences
     year: '2019'
   WCiItYkAAAAJ:W7OEmFMy1HYC:
-    citations: 12
+    citations: 13
     title: Probabilistic Demand Forecasting with Graph Neural Networks
     year: '2023'
   WCiItYkAAAAJ:d1gkVwhDpl0C:
-    citations: 14
+    citations: 16
     title: Unsupervised Anomaly Detection in Time Series Data Using Deep Learning
     year: '2018'
